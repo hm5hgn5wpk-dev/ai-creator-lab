@@ -1,0 +1,278 @@
+[
+  {
+    "id": "01",
+    "title": "Comprendre le business numérique sans se raconter d'histoires",
+    "time": "45 min",
+    "objective": "Savoir distinguer une idée séduisante d'un modèle économique viable.",
+    "content": [
+      [
+        "1. Chiffre d'affaires, marge et bénéfice",
+        "Le chiffre d'affaires correspond aux ventes réalisées. Il ne représente pas l'argent qui reste au fondateur. Il faut soustraire les remboursements, frais de paiement, logiciels, publicité, sous-traitance, impôts et autres charges. Le bénéfice peut être nul même avec beaucoup de ventes."
+      ],
+      [
+        "2. Les quatre questions d'un modèle",
+        "Qui a le problème ? À quelle fréquence survient-il ? Quelle solution existe déjà ? Pourquoi le client choisirait-il ton offre ? Une niche attirante n'est pas automatiquement rentable : il faut vérifier la demande et le coût d'acquisition."
+      ],
+      [
+        "3. L'hypothèse avant l'investissement",
+        "Avant de construire une grosse formation ou un logiciel, écris une hypothèse vérifiable et réalise une expérience peu coûteuse. Par exemple : « Au moins 5 personnes de mon public cible accepteront un entretien de 15 minutes sur ce problème cette semaine. » Ce n'est pas encore une preuve d'achat, mais un premier signal."
+      ]
+    ],
+    "exercise": "Rédige une fiche d'une page : public cible, problème, solution envisagée, alternatives actuelles, prix à tester, coûts probables et expérience de validation.",
+    "deliverable": "Fiche d'hypothèse business",
+    "template": "PUBLIC CIBLE :\\nPROBLÈME OBSERVABLE :\\nCOMMENT LE PUBLIC LE RÉSOUT AUJOURD'HUI :\\nSOLUTION ENVISAGÉE :\\nPOURQUOI ACHÈTERAIT-IL ?\\nPRIX À TESTER :\\nCOÛTS VARIABLES :\\nPREMIÈRE EXPÉRIENCE :\\nCRITÈRE POUR CONTINUER OU ABANDONNER :"
+  },
+  {
+    "id": "02",
+    "title": "Choisir une niche et valider la demande",
+    "time": "60 min",
+    "objective": "Comparer plusieurs idées à partir de signaux observables.",
+    "content": [
+      [
+        "1. Évaluer une niche",
+        "Note chaque idée sur cinq critères : urgence du problème, budget du public, facilité à atteindre ce public, concurrence observable et capacité à livrer une solution. Utilise une échelle de 1 à 5, puis explique les notes avec des éléments concrets."
+      ],
+      [
+        "2. Rechercher la demande",
+        "Lis les avis sur les produits concurrents, les questions répétées dans les communautés publiques, les offres d'emploi et les services que les clients paient déjà. Une personne qui dit « bonne idée » n'est pas la même chose qu'une personne qui paie."
+      ],
+      [
+        "3. Mener un entretien utile",
+        "Demande : « Raconte-moi la dernière fois où tu as rencontré ce problème », « Qu'as-tu essayé ? », « Qu'est-ce que cela t'a coûté ? ». Évite de pousser la personne à confirmer ton idée."
+      ]
+    ],
+    "exercise": "Compare trois idées, puis réalise cinq entretiens exploratoires. Ne collecte pas de données sensibles et respecte les règles applicables aux messages commerciaux.",
+    "deliverable": "Tableau de validation de niche",
+    "template": "IDÉE | URGENCE /5 | BUDGET /5 | ACCÈS AU PUBLIC /5 | CONCURRENCE /5 | PREUVE OBSERVÉE\\n1.\\n2.\\n3.\\n\\nQUESTIONS D'ENTRETIEN :\\n1. Dernière fois où le problème est survenu ?\\n2. Solution utilisée ?\\n3. Coût en temps/argent ?\\n4. Pourquoi la solution actuelle ne suffit-elle pas ?"
+  },
+  {
+    "id": "03",
+    "title": "Utiliser les assistants IA avec méthode",
+    "time": "60 min",
+    "objective": "Produire des résultats utiles et contrôler les erreurs des modèles.",
+    "content": [
+      [
+        "1. Un bon prompt",
+        "Décris le contexte, l'objectif, le public, les contraintes, le format attendu et les critères de qualité. Fournis un exemple lorsque c'est possible. Demande au modèle d'indiquer ses incertitudes et les informations manquantes."
+      ],
+      [
+        "2. Vérifier plutôt que croire",
+        "Les modèles peuvent inventer des faits, des chiffres et des références. Vérifie les affirmations importantes à partir de sources primaires. Ne transmets pas de données confidentielles ou personnelles sans base légale, autorisation et protection adéquates."
+      ],
+      [
+        "3. Construire un workflow",
+        "Découpe une tâche en étapes : entrée, transformation, contrôle, validation humaine et sortie. Commence par un processus simple et mesurable plutôt qu'un agent autonome complexe."
+      ]
+    ],
+    "exercise": "Utilise le modèle de prompt ci-dessous pour produire trois versions d'une page de présentation, puis vérifie manuellement chaque affirmation factuelle.",
+    "deliverable": "Bibliothèque de prompts contrôlés",
+    "template": "RÔLE :\\nCONTEXTE :\\nOBJECTIF :\\nPUBLIC :\\nCONTRAINTES :\\nINFORMATIONS FOURNIES :\\nFORMAT DE SORTIE :\\nCRITÈRES DE QUALITÉ :\\nÉLÉMENTS À VÉRIFIER :\\nQUESTIONS À ME POSER AVANT DE CONCLURE :"
+  },
+  {
+    "id": "04",
+    "title": "Créer une offre claire et honnête",
+    "time": "50 min",
+    "objective": "Définir une offre compréhensible, testable et livrable.",
+    "content": [
+      [
+        "1. Vendre un résultat précis",
+        "Une offre claire décrit un public, un problème, un livrable, un délai réaliste et les limites du service. « Utilise l'IA pour devenir riche » est vague et invérifiable. « Construis une première page de vente et teste-la auprès de 10 prospects » est concret."
+      ],
+      [
+        "2. Prix et périmètre",
+        "Le prix doit tenir compte du temps de livraison, des frais, de la valeur pour le client et des alternatives. Les premiers prix sont des hypothèses. Précise ce qui est inclus, ce qui ne l'est pas, les conditions de support et la politique de remboursement."
+      ],
+      [
+        "3. Preuves et promesses",
+        "Ne fabrique ni témoignages, ni captures de revenus, ni compteurs de ventes. Si tu n'as pas encore de résultats clients, présente une démonstration et indique clairement qu'il s'agit d'un exemple."
+      ]
+    ],
+    "exercise": "Écris une offre en 100 mots et fais-la lire à trois personnes de ton public cible. Demande-leur de reformuler ce qu'elles achèteraient.",
+    "deliverable": "Fiche d'offre",
+    "template": "POUR :\\nQUI RENCONTRE :\\nJE PROPOSE :\\nLIVRABLES :\\nCE QUI N'EST PAS INCLUS :\\nPRIX TEST :\\nDÉLAI :\\nSUPPORT :\\nPREUVE DISPONIBLE :\\nRISQUES / LIMITES :"
+  },
+  {
+    "id": "05",
+    "title": "Construire un prototype no-code",
+    "time": "75 min",
+    "objective": "Créer une démonstration qui prouve une partie de la valeur.",
+    "content": [
+      [
+        "1. Le prototype minimum",
+        "Un prototype doit tester l'hypothèse principale, pas imiter un produit complet. Il peut s'agir d'une page, d'un formulaire et d'un résultat produit manuellement. Ne développe pas les fonctions secondaires avant d'avoir observé des utilisateurs."
+      ],
+      [
+        "2. Parcours utilisateur",
+        "Décris les étapes : arrivée, compréhension de l'offre, action principale, confirmation et étape suivante. Chaque écran doit répondre à une question précise."
+      ],
+      [
+        "3. Tester la qualité",
+        "Teste sur téléphone et ordinateur, les liens, les erreurs de saisie, l'accessibilité de base et les messages de confirmation. N'utilise pas de fausses commandes ou de faux avis."
+      ]
+    ],
+    "exercise": "Dessine un parcours de cinq écrans et construis un prototype avec un outil no-code. Demande à trois personnes de l'utiliser sans les guider.",
+    "deliverable": "Prototype et checklist de test",
+    "template": "ÉCRAN 1 — Promesse :\\nÉCRAN 2 — Explication :\\nÉCRAN 3 — Action utilisateur :\\nÉCRAN 4 — Résultat :\\nÉCRAN 5 — Prochaine étape :\\nTESTS : mobile / liens / erreurs / clarté / accessibilité"
+  },
+  {
+    "id": "06",
+    "title": "Marque, contenu et acquisition",
+    "time": "60 min",
+    "objective": "Créer un système simple pour attirer une audience pertinente.",
+    "content": [
+      [
+        "1. Positionnement",
+        "Explique à qui tu t'adresses, ce que tu aides à accomplir et pourquoi ton approche est différente. Un nom et un logo ne remplacent pas une proposition de valeur."
+      ],
+      [
+        "2. Contenu utile",
+        "Publie des démonstrations, des études de cas vérifiables, des explications et les limites de ta méthode. Un contenu doit aider le public même s'il n'achète rien."
+      ],
+      [
+        "3. Mesurer le parcours",
+        "Suis les impressions pertinentes, visites, inscriptions, demandes qualifiées et ventes. Ne confonds pas vues et clients. Teste un canal à la fois avant d'augmenter le budget."
+      ]
+    ],
+    "exercise": "Prépare un calendrier de sept contenus : trois pédagogiques, deux démonstrations, un retour d'expérience honnête et une présentation de l'offre.",
+    "deliverable": "Calendrier de contenu",
+    "template": "JOUR | SUJET | PUBLIC | PROBLÈME TRAITÉ | FORMAT | APPEL À L'ACTION | INDICATEUR\\n1.\\n2.\\n3.\\n4.\\n5.\\n6.\\n7."
+  },
+  {
+    "id": "07",
+    "title": "Vendre et livrer un premier projet",
+    "time": "60 min",
+    "objective": "Mener une conversation commerciale centrée sur le besoin réel.",
+    "content": [
+      [
+        "1. Qualifier avant de proposer",
+        "Comprends le problème, sa fréquence, l'impact et la manière dont le client décide. Si ton produit ne répond pas au besoin, dis-le clairement."
+      ],
+      [
+        "2. Déroulé d'un appel",
+        "Présente le but de l'appel, pose des questions ouvertes, reformule le besoin, montre la partie pertinente de la démonstration, précise les limites et propose une prochaine étape sans pression."
+      ],
+      [
+        "3. Livrer correctement",
+        "Écris les responsabilités, délais, critères d'acceptation, frais, confidentialité, propriété intellectuelle et modalités de fin de service. Pour les consommateurs, respecte les règles de vente à distance et le droit de rétractation applicable."
+      ]
+    ],
+    "exercise": "Simule un appel de 15 minutes avec un ami jouant le rôle du client. Après l'appel, écris les besoins, objections et prochaines étapes.",
+    "deliverable": "Script de découverte",
+    "template": "OUVERTURE :\\nQUEL EST LE PROBLÈME ?\\nQUAND S'EST-IL PRODUIT LA DERNIÈRE FOIS ?\\nQU'AVEZ-VOUS DÉJÀ ESSAYÉ ?\\nQUEL EST L'IMPACT ?\\nQU'EST-CE QUI COMPTE POUR VOUS ?\\nREFORMULATION :\\nDÉMONSTRATION PERTINENTE :\\nLIMITES :\\nPROCHAINE ÉTAPE CONVENUE :"
+  },
+  {
+    "id": "08",
+    "title": "Automatiser sans perdre le contrôle",
+    "time": "60 min",
+    "objective": "Concevoir une automatisation fiable, observable et réversible.",
+    "content": [
+      [
+        "1. Schéma d'un workflow",
+        "Définis le déclencheur, les données entrantes, les règles, l'action, les erreurs possibles et la personne responsable. Prévois une solution manuelle si l'automatisation échoue."
+      ],
+      [
+        "2. Contrôle humain",
+        "Pour les décisions sensibles, les paiements, les communications à fort impact et les données personnelles, conserve des vérifications et permissions appropriées. Teste sur un environnement fictif avant la production."
+      ],
+      [
+        "3. Journal et incidents",
+        "Garde des journaux proportionnés, limite les accès, évite de stocker des données inutiles et définis comment désactiver le workflow en cas de problème."
+      ]
+    ],
+    "exercise": "Crée un diagramme déclencheur → traitement → validation → action → journal, avec au moins trois scénarios d'erreur.",
+    "deliverable": "Fiche d'automatisation",
+    "template": "DÉCLENCHEUR :\\nENTRÉES :\\nRÈGLES :\\nACTION :\\nVALIDATION HUMAINE :\\nERREURS POSSIBLES :\\nPLAN DE SECOURS :\\nDONNÉES CONSERVÉES :\\nQUI PEUT DÉSACTIVER ?"
+  },
+  {
+    "id": "09",
+    "title": "Finances, marge et trésorerie",
+    "time": "60 min",
+    "objective": "Évaluer si l'activité gagne réellement de l'argent.",
+    "content": [
+      [
+        "1. Calcul de marge",
+        "Pour chaque vente, soustrais les coûts directement liés à sa livraison. Ensuite, tiens compte des frais fixes, marketing, remboursements, cotisations et impôts. Fais confirmer tes obligations fiscales et comptables en Belgique par un professionnel."
+      ],
+      [
+        "2. Trésorerie",
+        "Une entreprise peut être rentable sur le papier et manquer de liquidités si les encaissements arrivent après les dépenses. Prévois les échéances, un coussin de sécurité et un plan si les ventes sont plus faibles que prévu."
+      ],
+      [
+        "3. Mesures utiles",
+        "Suis les ventes encaissées, marge contributive, coût d'acquisition, taux de conversion, remboursements, résiliations et temps de livraison. N'augmente pas les dépenses publicitaires sur la base d'une seule vente."
+      ]
+    ],
+    "exercise": "Complète un budget mensuel avec trois scénarios : prudent, central et optimiste. Utilise des hypothèses explicites et modifie-les si les résultats observés divergent.",
+    "deliverable": "Budget mensuel",
+    "template": "VENTES ENCAISSÉES :\\nREMBOURSEMENTS :\\nFRAIS DE PAIEMENT :\\nOUTILS :\\nPUBLICITÉ :\\nSOUS-TRAITANCE :\\nAUTRES CHARGES :\\nTRÉSORERIE DE DÉPART :\\nTRÉSORERIE DE FIN :\\nHYPOTHÈSES ET RISQUES :"
+  },
+  {
+    "id": "10",
+    "title": "Passer d'un service à un produit",
+    "time": "60 min",
+    "objective": "Décider quand standardiser et transformer une prestation en produit.",
+    "content": [
+      [
+        "1. Identifier les répétitions",
+        "Note les étapes répétées chez plusieurs clients. Une fonction ne doit être intégrée au logiciel que si plusieurs utilisateurs en ont réellement besoin."
+      ],
+      [
+        "2. Tester avant de développer",
+        "Propose un pilote, observe l'usage et mesure si le client revient. Les déclarations d'intérêt sont moins solides que l'utilisation régulière et le paiement."
+      ],
+      [
+        "3. Choisir le modèle",
+        "Un abonnement implique des coûts récurrents de support, hébergement, sécurité, mises à jour et résiliation. Calcule la marge et prévois les obligations de disponibilité et de protection des données."
+      ]
+    ],
+    "exercise": "Liste les tâches répétées dans trois projets ou cas fictifs. Choisis une seule fonction à tester et définis comment mesurer son utilité.",
+    "deliverable": "Spécification de produit minimum",
+    "template": "UTILISATEUR CIBLE :\\nTÂCHE RÉPÉTÉE :\\nFRÉQUENCE :\\nSOLUTION ACTUELLE :\\nFONCTION MINIMUM :\\nPREUVE DE DEMANDE :\\nCOÛTS RÉCURRENTS :\\nMESURE D'UTILITÉ :\\nCRITÈRE D'ARRÊT :"
+  },
+  {
+    "id": "11",
+    "title": "Distribution, partenariats et rétention",
+    "time": "50 min",
+    "objective": "Construire une acquisition reproductible et un service durable.",
+    "content": [
+      [
+        "1. Un canal à la fois",
+        "Choisis un canal selon ton public et tes ressources : contenu, recommandations, partenaires, événements ou publicité. Documente ce qui fonctionne et ce qui ne fonctionne pas."
+      ],
+      [
+        "2. Fidéliser",
+        "La fidélisation vient d'une valeur régulière, d'une intégration claire, d'un support fiable et de la résolution rapide des problèmes. Ne rends pas l'annulation volontairement difficile."
+      ],
+      [
+        "3. Grandir sans casser la qualité",
+        "Documente les processus, automatise les tâches répétitives et mesure les incidents. Recrute lorsque la demande récurrente justifie le coût, pas uniquement pour donner une image plus grande."
+      ]
+    ],
+    "exercise": "Élabore un plan de distribution de 30 jours avec une expérience par semaine, un budget maximum et une règle d'arrêt.",
+    "deliverable": "Plan de distribution",
+    "template": "CANAL :\\nPUBLIC :\\nMESSAGE :\\nACTION HEBDOMADAIRE :\\nBUDGET MAXIMUM :\\nINDICATEUR :\\nSEUIL DE RÉUSSITE :\\nSEUIL D'ARRÊT :\\nAPPRENTISSAGE :"
+  },
+  {
+    "id": "12",
+    "title": "Plan d'exécution sur 90 jours",
+    "time": "45 min",
+    "objective": "Transformer la formation en plan d'expériences et de décisions.",
+    "content": [
+      [
+        "Jours 1–30 : découverte",
+        "Interroge le public, analyse les solutions existantes et teste plusieurs propositions. Objectif : trouver un problème précis et des signaux crédibles de demande."
+      ],
+      [
+        "Jours 31–60 : pilote",
+        "Construis un produit minimum, fais-le tester, mesure l'utilisation et demande des retours. Corrige les problèmes avant d'augmenter la promotion."
+      ],
+      [
+        "Jours 61–90 : décision",
+        "Examine les ventes, coûts, satisfaction, demandes répétées et risques. Choisis de continuer, modifier le public, modifier l'offre ou arrêter. Un arrêt raisonné peut éviter de perdre davantage de temps et d'argent."
+      ]
+    ],
+    "exercise": "Écris trois objectifs mesurables, une revue hebdomadaire de 20 minutes et des critères de poursuite ou d'arrêt.",
+    "deliverable": "Tableau de bord 90 jours",
+    "template": "OBJECTIF 1 :\\nINDICATEUR :\\nDATE DE REVUE :\\nOBJECTIF 2 :\\nINDICATEUR :\\nDATE DE REVUE :\\nOBJECTIF 3 :\\nINDICATEUR :\\nDATE DE REVUE :\\nRISQUES :\\nCRITÈRE DE CONTINUATION :\\nCRITÈRE DE PIVOT / ARRÊT :"
+  }
+]
