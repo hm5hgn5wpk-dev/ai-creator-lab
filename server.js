@@ -212,7 +212,9 @@ app.post("/api/checkout",requireAuth,async (req,res)=>{
 });
 app.get("/api/lessons",requireAuth,requireCourse,(req,res)=>{
   const bonus=req.user.tier==="creator";
-  res.json({tier:req.user.tier,lessons:lessons.map(l=>({
+  // Starter (99 €) includes only the first 6 modules; Creator Pro (249 €) includes all 12.
+  const entitledLessons = bonus ? lessons : lessons.slice(0, 6);
+  res.json({tier:req.user.tier,lessons:entitledLessons.map(l=>({
     id:l.id,title:l.title,time:l.time,objective:l.objective,content:l.content,exercise:l.exercise,deliverable:l.deliverable,
     template:bonus?l.template:null
   })),bonus});
