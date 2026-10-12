@@ -190,7 +190,7 @@ app.post("/api/logout",(req,res)=>req.session.destroy(()=>{res.clearCookie("acl.
 app.get("/api/me",(req,res)=>res.json({user:safeUser(getUser(req))}));
 app.get("/api/status",requireAuth,(req,res)=>{
   const user=getUser(req);
-  const payment=db.prepare("SELECT tier,amount,currency,status,created_at FROM payments WHERE user_id=? AND status='paid' ORDER BY id DESC LIMIT 5").all(user.id);
+  const payments=db.prepare("SELECT tier,amount,currency,status,created_at FROM payments WHERE user_id=? AND status='paid' ORDER BY id DESC LIMIT 5").all(user.id);
   res.json({user:safeUser(user),payments,configured:Boolean(stripe && process.env.STRIPE_WEBHOOK_SECRET && process.env.STRIPE_PRICE_STARTER && process.env.STRIPE_PRICE_CREATOR)});
 });
 app.post("/api/checkout",requireAuth,async (req,res)=>{
