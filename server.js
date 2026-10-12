@@ -116,6 +116,8 @@ app.post("/webhooks/stripe", express.raw({type:"application/json"}), (req,res) =
 
 app.use(express.json({limit:"100kb"}));
 app.use(express.urlencoded({extended:false,limit:"20kb"}));
+app.set("trust proxy", 1);
+
 app.use(session({
   name:"acl.sid",
   store:new SQLiteStore({db:"sessions.sqlite", dir:path.dirname(path.resolve(dbPath))}),
