@@ -31,3 +31,15 @@
 .success-copy h3{font-size:21px;margin:8px 0}
 .success-copy p{font-size:12px;color:var(--muted);margin:0}
 @media(max-width:760px){.luxury-grid{grid-template-columns:1fr}.luxury-card{min-height:270px}.success-heading{display:block}.success-heading>p{margin-top:14px}.success-grid{grid-template-columns:1fr}.success-image{height:260px}}
+
+/* Long-form course and legal information */
+.lesson-agenda{padding:12px 14px;border:1px solid #c6ff6830;background:#c6ff6808;border-radius:10px;margin:14px 0}
+.lesson-row p{white-space:normal;line-height:1.8}
+.lesson-row pre{white-space:pre-wrap;overflow-wrap:anywhere;padding:14px;background:#080b13;border:1px solid var(--line);border-radius:10px;color:#e3e8f6;font-size:12px}
+.legal-copy{max-width:900px;line-height:1.8}
+.legal-copy h3{font-size:21px;margin:30px 0 10px;color:var(--lime)}
+.legal-copy p,.legal-copy li{font-size:14px;color:#d1d7e7}
+.legal-copy ul{padding-left:22px}
+.legal-copy a{text-decoration:underline;color:var(--lime)}
+.legal-copy .notice{margin:22px 0;padding:15px;border-left:3px solid var(--lime);background:#c6ff6809;color:#d1d7e7;border-radius:7px}
+.footerrow{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}

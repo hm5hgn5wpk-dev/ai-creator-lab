@@ -116,8 +116,6 @@ app.post("/webhooks/stripe", express.raw({type:"application/json"}), (req,res) =
 
 app.use(express.json({limit:"100kb"}));
 app.use(express.urlencoded({extended:false,limit:"20kb"}));
-app.set("trust proxy", 1);
-
 app.use(session({
   name:"acl.sid",
   store:new SQLiteStore({db:"sessions.sqlite", dir:path.dirname(path.resolve(dbPath))}),
@@ -162,14 +160,8 @@ app.post("/api/register",authLimiter, async (req,res) => {
   const hash=await bcrypt.hash(password,12);
   try {
     const result=db.prepare("INSERT INTO users(name,email,password_hash) VALUES(?,?,?)").run(name,email,hash);
-    req.session.userId = Number(result.lastInsertRowid);
-req.session.save(err => {
-  if (err) return res.status(500).json({error:"Impossible d'enregistrer la session."});
-  res.json({
-    user: {id:Number(result.lastInsertRowid),name,email,tier:null},
-    message:"Compte créé. Tu peux maintenant choisir ton accès."
-  });
-});
+    req.session.userId=Number(result.lastInsertRowid);
+    res.json({user:{id:Number(result.lastInsertRowid),name,email,tier:null},message:"Compte créé. Tu peux maintenant choisir ton accès."});
   } catch(e) { res.status(500).json({error:"Impossible de créer le compte pour le moment."}); }
 });
 app.post("/api/login",authLimiter, async (req,res) => {
@@ -177,20 +169,17 @@ app.post("/api/login",authLimiter, async (req,res) => {
   const password=String(req.body.password||"");
   const user=db.prepare("SELECT * FROM users WHERE email=?").get(email);
   if (!user || !(await bcrypt.compare(password,user.password_hash))) return res.status(401).json({error:"E-mail ou mot de passe incorrect."});
-  req.session.regenerate(err => {
-  if (err) return res.status(500).json({error:"Impossible d'ouvrir la session."});
-  req.session.userId = user.id;
-  req.session.save(err => {
-    if (err) return res.status(500).json({error:"Impossible d'enregistrer la session."});
+  req.session.regenerate(err=>{
+    if(err) return res.status(500).json({error:"Impossible d'ouvrir la session."});
+    req.session.userId=user.id;
     res.json({user:safeUser(user),message:"Connexion réussie."});
   });
-});
 });
 app.post("/api/logout",(req,res)=>req.session.destroy(()=>{res.clearCookie("acl.sid",{httpOnly:true,sameSite:"lax",secure:isProd});res.json({ok:true});}));
 app.get("/api/me",(req,res)=>res.json({user:safeUser(getUser(req))}));
 app.get("/api/status",requireAuth,(req,res)=>{
   const user=getUser(req);
-  const payments=db.prepare("SELECT tier,amount,currency,status,created_at FROM payments WHERE user_id=? AND status='paid' ORDER BY id DESC LIMIT 5").all(user.id);
+  const payment=db.prepare("SELECT tier,amount,currency,status,created_at FROM payments WHERE user_id=? AND status='paid' ORDER BY id DESC LIMIT 5").all(user.id);
   res.json({user:safeUser(user),payments,configured:Boolean(stripe && process.env.STRIPE_WEBHOOK_SECRET && process.env.STRIPE_PRICE_STARTER && process.env.STRIPE_PRICE_CREATOR)});
 });
 app.post("/api/checkout",requireAuth,async (req,res)=>{
@@ -241,4 +230,4 @@ app.get("/api/support/:id",requireAuth,requireCourse,(req,res)=>{
 
 app.use(express.static(path.join(__dirname,"public"),{extensions:["html"]}));
 app.get("*",(req,res)=>res.sendFile(path.join(__dirname,"public","index.html")));
-app.listen(PORT, "0.0.0.0", () => console.log(`AI Creator Lab prêt sur le port ${PORT}`));
+app.listen(PORT,()=>console.log(`AI Creator Lab prêt sur ${BASE_URL}`));

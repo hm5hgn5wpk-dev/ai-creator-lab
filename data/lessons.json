@@ -1,278 +1,430 @@
 [
   {
     "id": "01",
-    "title": "Comprendre le business numérique sans se raconter d'histoires",
+    "title": "Comprendre le business numérique sans se raconter d’histoires",
     "time": "45 min",
-    "objective": "Savoir distinguer une idée séduisante d'un modèle économique viable.",
+    "objective": "Savoir distinguer une idée séduisante d’un modèle économique viable, calculer ce qui reste réellement et choisir une première expérience peu coûteuse.",
     "content": [
       [
-        "1. Chiffre d'affaires, marge et bénéfice",
-        "Le chiffre d'affaires correspond aux ventes réalisées. Il ne représente pas l'argent qui reste au fondateur. Il faut soustraire les remboursements, frais de paiement, logiciels, publicité, sous-traitance, impôts et autres charges. Le bénéfice peut être nul même avec beaucoup de ventes."
+        "1. Le chiffre d’affaires n’est pas ton revenu",
+        "Le chiffre d’affaires (CA) correspond au montant facturé ou vendu sur une période. Il ne représente ni le bénéfice, ni le montant que tu peux te verser. Pour comprendre une activité, sépare au minimum : les ventes encaissées, les remboursements, les frais de paiement, les coûts variables de livraison, les frais fixes, les impôts et cotisations applicables, puis la rémunération du travail. Une activité qui vend 4 000 € par mois peut être fragile si elle dépense 3 800 € et exige 100 heures de travail.\n\nExemple pédagogique : tu vends 20 prestations à 100 €, soit 2 000 € de CA. Les frais de paiement et outils liés aux ventes coûtent 100 €, la sous-traitance 300 €, la publicité 250 €, les logiciels fixes 80 € et les autres frais 120 €. Il reste 1 150 € avant impôts, cotisations, éventuels remboursements et rémunération de ton temps. Si tu as consacré 70 heures, ce résultat ne signifie pas que tu gagnes 1 150 € de salaire net. C’est précisément pour cela qu’il faut suivre séparément la trésorerie, la rentabilité et le temps passé."
       ],
       [
-        "2. Les quatre questions d'un modèle",
-        "Qui a le problème ? À quelle fréquence survient-il ? Quelle solution existe déjà ? Pourquoi le client choisirait-il ton offre ? Une niche attirante n'est pas automatiquement rentable : il faut vérifier la demande et le coût d'acquisition."
+        "2. Les quatre blocs d’un modèle économique",
+        "Un modèle économique répond à quatre questions liées. Premièrement, qui a le problème ? « Tout le monde » est trop vague : choisis un groupe que tu peux décrire et joindre. Deuxièmement, quel problème concret résous-tu, à quelle fréquence et avec quel coût pour la personne ? Troisièmement, quelle solution lui proposes-tu et pourquoi serait-elle préférable aux solutions actuelles : tableur, agence, bricolage, concurrent ou absence d’action ? Quatrièmement, comment l’argent circule-t-il : prix, fréquence d’achat, coût de livraison, acquisition et support ?\n\nNe commence pas par demander « quelle idée peut me rendre riche ? ». Demande plutôt « quel problème suffisamment important puis-je résoudre de façon répétable, avec un coût et un risque acceptables ? ». Une petite activité utile et rentable vaut mieux qu’un produit spectaculaire que personne n’achète. Le but initial n’est pas de construire un empire : c’est de collecter des preuves sur un segment étroit."
       ],
       [
-        "3. L'hypothèse avant l'investissement",
-        "Avant de construire une grosse formation ou un logiciel, écris une hypothèse vérifiable et réalise une expérience peu coûteuse. Par exemple : « Au moins 5 personnes de mon public cible accepteront un entretien de 15 minutes sur ce problème cette semaine. » Ce n'est pas encore une preuve d'achat, mais un premier signal."
+        "3. Construire une hypothèse falsifiable",
+        "Une hypothèse utile doit pouvoir être confirmée ou infirmée par une observation. « Les entreprises aiment l’IA » est trop vague. « Parmi 15 salons de coiffure indépendants contactés, au moins 5 décriront un problème récurrent de prise de rendez-vous ou de création de contenu et accepteront un entretien de 15 minutes » est testable. Définis avant l’expérience le nombre de personnes, la période, le signal recherché et le seuil de décision. Sinon, tu risques de réinterpréter n’importe quel résultat comme une validation.\n\nDistingue les signaux faibles et forts. Un like, un compliment ou une réponse polie coûte presque rien à la personne. Un rendez-vous pris, une demande de devis, un acompte ou un achat représente un engagement plus fort. Même un achat ne prouve pas à lui seul que l’activité sera durable : il faut aussi vérifier le coût de livraison, la satisfaction et la possibilité de répéter les ventes."
+      ],
+      [
+        "4. Le tableau de bord minimal",
+        "Au départ, suis peu d’indicateurs, mais suis-les régulièrement : nombre de personnes ciblées, réponses, entretiens, demandes de devis, ventes, panier moyen, coûts variables, heures de livraison, remboursements et marge contributive. Une métrique n’est utile que si elle change une décision. Les abonnés ou les vues peuvent aider à comprendre la distribution, mais ne remplacent pas les ventes ni la satisfaction.\n\nCalcule la marge contributive par vente : prix encaissé hors taxes si la TVA s’applique, moins les coûts directement liés à cette vente. Elle sert ensuite à couvrir les frais fixes et les autres charges. Pour un service vendu 150 €, si les coûts variables sont de 35 €, la marge contributive est de 115 € avant frais fixes, impôts et rémunération. Si la livraison prend 6 heures, tu dois aussi examiner le taux horaire effectif."
+      ],
+      [
+        "5. Étude de cas : une offre d’automatisation locale",
+        "Imaginons que tu proposes à des petits commerces un service d’organisation de demandes clients. Tu pourrais construire tout de suite un système complet avec abonnement, application, logo et publicité. Ce serait risqué sans preuve. Une démarche plus rationnelle consiste à interroger 8 à 12 commerces, comprendre le processus actuel, mesurer le temps perdu et demander comment ils le résolvent aujourd’hui. Ensuite, crée une démonstration avec de fausses données, puis propose un pilote à périmètre limité.\n\nAvant le pilote, écris ce qui est inclus, ce qui ne l’est pas, le délai, le prix, les responsabilités, les données utilisées et le critère de réussite. N’affirme pas que l’outil va augmenter les revenus si tu ne peux pas le démontrer. Tu peux promettre une livraison précise et mesurable, comme un workflow testé ou un rapport, sans promettre un résultat commercial que tu ne contrôles pas."
+      ],
+      [
+        "6. Les erreurs coûteuses à éviter",
+        "Les pièges courants sont de confondre chiffre d’affaires et bénéfice, investir dans des outils avant d’avoir un client, copier un concurrent sans comprendre sa clientèle, sous-estimer le temps de vente et de support, et traiter chaque compliment comme une validation. Évite aussi les dépenses fixes qui t’obligent à vendre avant de savoir si l’offre fonctionne. Commence avec le plus petit test qui répond à la question la plus risquée.\n\nDécide à l’avance quand continuer, modifier ou arrêter. Par exemple : après 12 entretiens, si personne ne décrit le problème comme important, revois le segment ou le problème avant de construire. Si les prospects reconnaissent le problème mais refusent le prix, teste la valeur, le périmètre ou un autre segment. Une expérience négative n’est pas un échec personnel : c’est une information qui évite de dépenser davantage."
       ]
     ],
-    "exercise": "Rédige une fiche d'une page : public cible, problème, solution envisagée, alternatives actuelles, prix à tester, coûts probables et expérience de validation.",
-    "deliverable": "Fiche d'hypothèse business",
-    "template": "PUBLIC CIBLE :\\nPROBLÈME OBSERVABLE :\\nCOMMENT LE PUBLIC LE RÉSOUT AUJOURD'HUI :\\nSOLUTION ENVISAGÉE :\\nPOURQUOI ACHÈTERAIT-IL ?\\nPRIX À TESTER :\\nCOÛTS VARIABLES :\\nPREMIÈRE EXPÉRIENCE :\\nCRITÈRE POUR CONTINUER OU ABANDONNER :"
+    "exercise": "Atelier de 12 minutes : complète la fiche d’hypothèse avec un public précis, un problème observé, la solution actuelle, une offre testable, les coûts probables et une expérience à réaliser dans les 7 jours. Calcule ensuite un exemple de marge avec des chiffres prudents. Termine par une règle de décision écrite avant d’obtenir les résultats.",
+    "deliverable": "Une fiche d’hypothèse business d’une page et un mini-tableau économique chiffré.",
+    "template": "PUBLIC CIBLE :\nPROBLÈME OBSERVABLE :\nFRÉQUENCE / IMPACT :\nSOLUTION ACTUELLE :\nOFFRE TESTABLE :\nPRIX À TESTER :\nCOÛTS VARIABLES PAR VENTE :\nFRAIS FIXES MENSUELS :\nHEURES DE LIVRAISON :\nEXPÉRIENCE / DATE :\nSIGNAL DE VALIDATION :\nSEUIL POUR CONTINUER / MODIFIER / ARRÊTER :",
+    "agenda": "5 min — cadrer le problème ; 10 min — comprendre CA, coûts et marge ; 8 min — analyser les quatre blocs du modèle ; 7 min — formuler une hypothèse testable ; 12 min — compléter l’atelier ; 3 min — noter la prochaine action."
   },
   {
     "id": "02",
     "title": "Choisir une niche et valider la demande",
     "time": "60 min",
-    "objective": "Comparer plusieurs idées à partir de signaux observables.",
+    "objective": "Comparer des niches à partir de critères observables, mener des entretiens sans biaiser les réponses et décider si une opportunité mérite un test commercial.",
     "content": [
       [
-        "1. Évaluer une niche",
-        "Note chaque idée sur cinq critères : urgence du problème, budget du public, facilité à atteindre ce public, concurrence observable et capacité à livrer une solution. Utilise une échelle de 1 à 5, puis explique les notes avec des éléments concrets."
+        "1. Une niche est un groupe accessible, pas seulement un sujet",
+        "Une niche utile combine un public identifiable, un problème suffisamment important et un moyen réaliste de joindre ce public. « L’IA » n’est pas une niche. « Les indépendants qui répondent chaque jour aux mêmes questions de prospects » est plus exploitable. Plus ton public est précis, plus tu peux employer son vocabulaire, choisir un canal de contact pertinent et créer une démonstration qui ressemble à sa réalité.\n\nUne niche trop étroite peut manquer de clients ; une niche trop large rend le message flou. Commence par une hypothèse suffisamment étroite pour apprendre vite, puis élargis si les données le justifient. Ne choisis pas uniquement selon la mode, ton intérêt personnel ou les vidéos qui affichent de gros revenus. Vérifie la capacité à payer, la fréquence du problème, les solutions actuelles et l’accès aux décideurs."
       ],
       [
-        "2. Rechercher la demande",
-        "Lis les avis sur les produits concurrents, les questions répétées dans les communautés publiques, les offres d'emploi et les services que les clients paient déjà. Une personne qui dit « bonne idée » n'est pas la même chose qu'une personne qui paie."
+        "2. La grille de sélection sur 25 points",
+        "Note chaque idée de 1 à 5 sur cinq critères : intensité du problème, fréquence, budget ou volonté de payer, facilité d’accès au public et adéquation avec tes compétences/ressources. Une note élevée ne garantit rien ; elle aide à comparer des hypothèses de façon cohérente. Écris une preuve ou un indice pour chaque note, sinon tu ne fais que noter ton enthousiasme.\n\nExemple : « aider les restaurants à produire des posts » peut sembler facile, mais la concurrence est forte et le besoin parfois peu urgent. « réduire les demandes de réservation manquées pour un établissement qui reçoit beaucoup de messages » peut avoir un impact plus mesurable. Dans les deux cas, il faut vérifier auprès du public réel. Ajoute aussi les risques : données personnelles, intégrations techniques, support nécessaire, dépendance à une plateforme ou règles sectorielles."
       ],
       [
-        "3. Mener un entretien utile",
-        "Demande : « Raconte-moi la dernière fois où tu as rencontré ce problème », « Qu'as-tu essayé ? », « Qu'est-ce que cela t'a coûté ? ». Évite de pousser la personne à confirmer ton idée."
+        "3. Chercher des preuves avant de construire",
+        "La recherche documentaire peut révéler le vocabulaire, les concurrents, les prix affichés, les avis négatifs et les solutions de remplacement. Consulte les sites de concurrents, les avis publics, les forums professionnels, les groupes autorisés et les offres d’emploi qui décrivent les tâches répétitives. Note la date et la source : les prix et outils changent. Ne copie pas les contenus et ne suppose pas qu’un concurrent qui paraît prospère l’est réellement.\n\nL’analyse publique génère des hypothèses, pas une preuve de volonté d’achat. Les conversations avec des personnes concernées sont la prochaine étape. Évite les questions orientées comme « tu aimerais un outil génial qui te fait gagner du temps ? ». Demande plutôt « raconte-moi la dernière fois que ce problème s’est produit », « qu’as-tu fait ? », « combien de temps cela a-t-il pris ? » et « qu’est-ce qui t’a coûté le plus cher ? ». Le passé observable est plus fiable que les intentions hypothétiques."
+      ],
+      [
+        "4. Conduire un entretien de découverte",
+        "Demande la permission de prendre des notes et explique que tu cherches à comprendre le processus, pas à vendre immédiatement. Prévois 15 à 20 minutes. Questions utiles : « Peux-tu me décrire la dernière fois ? », « combien de fois cela arrive-t-il ? », « quelles conséquences cela a-t-il ? », « quelle solution utilises-tu actuellement ? », « qu’est-ce qui manque à cette solution ? », « qui décide d’un achat ? ». Laisse la personne parler et évite de lui présenter ton idée trop tôt.\n\nÀ la fin, résume ce que tu as compris et demande si tu as bien saisi. Si une démonstration pourrait être utile, demande si tu peux reprendre contact. Ne fabrique pas de fausses urgences et ne transforme pas un entretien en consentement marketing implicite. Si tu enregistres la conversation, informe la personne et obtiens l’accord approprié. Ne collecte pas de données personnelles qui ne sont pas nécessaires."
+      ],
+      [
+        "5. Du signal d’intérêt au test de paiement",
+        "Les signaux peuvent être classés : curiosité, description détaillée d’un problème, demande d’informations, acceptation d’un pilote, demande de devis, puis achat. Plus le signal exige un engagement réel, plus il est informatif. Mais un paiement ponctuel ne valide pas automatiquement le marché à long terme : tu dois pouvoir livrer, satisfaire le client et préserver une marge positive.\n\nTu peux tester une offre manuellement avant de créer un produit. Prépare une page simple indiquant le public, le problème, les livrables, le prix de test, les délais, les limites et la procédure de contact. Si tu prends un paiement, respecte les règles de vente à distance, les informations précontractuelles, les conditions de remboursement applicables et les obligations fiscales. Ne fais pas semblant que le service existe déjà s’il n’est qu’une maquette."
+      ],
+      [
+        "6. La règle de décision",
+        "Définis un seuil avant le test. Exemple : « je contacte 20 professionnels, réalise au moins 6 conversations qualifiées, puis propose un pilote à 3 personnes ». Si les réponses sont faibles, vérifie d’abord si tu as bien ciblé le public et si le message est compréhensible. Si les entretiens confirment le problème mais personne n’accepte le pilote, examine le prix, la confiance, le risque perçu ou la priorité. Ne change pas tous les paramètres en même temps : une expérience doit t’apprendre quelque chose de précis."
       ]
     ],
-    "exercise": "Compare trois idées, puis réalise cinq entretiens exploratoires. Ne collecte pas de données sensibles et respecte les règles applicables aux messages commerciaux.",
-    "deliverable": "Tableau de validation de niche",
-    "template": "IDÉE | URGENCE /5 | BUDGET /5 | ACCÈS AU PUBLIC /5 | CONCURRENCE /5 | PREUVE OBSERVÉE\\n1.\\n2.\\n3.\\n\\nQUESTIONS D'ENTRETIEN :\\n1. Dernière fois où le problème est survenu ?\\n2. Solution utilisée ?\\n3. Coût en temps/argent ?\\n4. Pourquoi la solution actuelle ne suffit-elle pas ?"
+    "exercise": "Atelier de 20 minutes : choisis trois niches, note-les sur 25 avec une justification pour chaque note, identifie 10 personnes que tu peux joindre légalement et rédige un guide de 6 questions ouvertes. Prépare ensuite un message d’invitation non insistant et un seuil de décision pour les deux prochaines semaines.",
+    "deliverable": "Une matrice de niches, un guide d’entretien et un plan de validation sur 14 jours.",
+    "template": "NICHE A / SCORE / PREUVES :\nNICHE B / SCORE / PREUVES :\nNICHE C / SCORE / PREUVES :\nPUBLIC À INTERROGER :\nQUESTIONS OUVERTES :\nCANAL DE CONTACT :\nNOMBRE DE CONTACTS :\nSEUIL DE VALIDATION :\nDATE DE REVUE :",
+    "agenda": "8 min — définir une niche ; 10 min — noter trois idées ; 12 min — rechercher les alternatives ; 12 min — écrire les questions d’entretien ; 15 min — atelier et seuil de décision ; 3 min — planifier les premiers contacts."
   },
   {
     "id": "03",
     "title": "Utiliser les assistants IA avec méthode",
     "time": "60 min",
-    "objective": "Produire des résultats utiles et contrôler les erreurs des modèles.",
+    "objective": "Obtenir des résultats exploitables avec des prompts structurés, vérifier les erreurs et construire un flux de travail réutilisable sans divulguer de données sensibles.",
     "content": [
       [
-        "1. Un bon prompt",
-        "Décris le contexte, l'objectif, le public, les contraintes, le format attendu et les critères de qualité. Fournis un exemple lorsque c'est possible. Demande au modèle d'indiquer ses incertitudes et les informations manquantes."
+        "1. Un modèle de prompt complet",
+        "Un prompt efficace donne le contexte, l’objectif, le public, les données disponibles, les contraintes, le format de sortie et les critères de qualité. « Écris un post » laisse trop de décisions au modèle. Une consigne plus utile précise le type d’entreprise, la cible, le problème, le ton, la longueur, le canal, les affirmations autorisées et l’action attendue. Demande au modèle de signaler les informations manquantes plutôt que de les inventer.\n\nExemple : « Tu aides une petite entreprise belge de services. À partir des informations ci-dessous, propose trois versions d’un e-mail de suivi, chacune de moins de 120 mots. N’invente ni prix ni promesse. Utilise un ton professionnel et cordial. Termine par une question simple. Liste séparément les hypothèses et les éléments à vérifier. » Le prompt n’est pas magique : la qualité des données, la vérification et le jugement humain restent déterminants."
       ],
       [
-        "2. Vérifier plutôt que croire",
-        "Les modèles peuvent inventer des faits, des chiffres et des références. Vérifie les affirmations importantes à partir de sources primaires. Ne transmets pas de données confidentielles ou personnelles sans base légale, autorisation et protection adéquates."
+        "2. Décomposer une tâche complexe",
+        "Pour une tâche importante, ne demande pas tout en une seule fois. Procède par étapes : définir le résultat attendu, extraire les informations, proposer une structure, rédiger une version, contrôler les critères, puis réviser. Ce découpage permet d’identifier où une erreur est apparue et de corriger sans recommencer entièrement.\n\nPar exemple, pour créer une FAQ client, commence par lister les questions réellement reçues, classe-les, rédige une réponse à partir des politiques existantes et demande une liste de points incertains. Un assistant peut générer des idées, résumer un document ou transformer un brouillon, mais ne doit pas inventer une politique commerciale. Si la réponse engage juridiquement ou financièrement l’entreprise, fais-la vérifier par une personne compétente."
       ],
       [
-        "3. Construire un workflow",
-        "Découpe une tâche en étapes : entrée, transformation, contrôle, validation humaine et sortie. Commence par un processus simple et mesurable plutôt qu'un agent autonome complexe."
+        "3. Vérifier les faits et les sources",
+        "Les modèles peuvent produire une réponse fluide mais fausse, mélanger des dates, inventer des références ou ne pas signaler l’incertitude. Pour une information factuelle importante, cherche une source primaire récente : documentation officielle, texte légal, contrat, données internes fiables ou publication de l’organisme concerné. Ouvre la source, vérifie qu’elle soutient exactement l’affirmation et conserve la date de consultation.\n\nSépare les sorties en trois catégories : faits confirmés, hypothèses à tester et recommandations. Demande des citations ou des liens, mais ne considère pas leur présence comme une preuve qu’ils existent. Vérifie manuellement les chiffres, les formules et les calculs. Pour les décisions à fort impact, ne laisse pas un assistant choisir seul : utilise-le comme aide à la réflexion, pas comme autorité finale."
+      ],
+      [
+        "4. Construire une bibliothèque de prompts",
+        "Une bibliothèque utile est organisée par tâche, pas une collection de formules virales. Pour chaque prompt, garde un nom, un objectif, les entrées nécessaires, le texte du prompt, un exemple de sortie, les erreurs observées et la date de dernière vérification. Ajoute une version et un responsable. Lorsque le modèle ou les règles changent, reteste les prompts importants.\n\nMesure le gain réel : temps avant/après, nombre de corrections, taux d’erreurs et satisfaction de la personne qui reçoit le résultat. Si un prompt fait gagner 10 minutes mais crée 15 minutes de vérification, il n’améliore pas le processus. La bonne question n’est pas « l’IA a-t-elle répondu ? », mais « le résultat final est-il correct, utile, sûr et moins coûteux à produire ? »."
+      ],
+      [
+        "5. Confidentialité et propriété intellectuelle",
+        "N’envoie pas à un outil public des mots de passe, données bancaires, dossiers clients, informations de santé, contrats confidentiels ou fichiers internes sensibles sans avoir vérifié les conditions de traitement et obtenu les autorisations nécessaires. Remplace les noms par des identifiants fictifs lorsque cela suffit. Utilise uniquement les données dont tu as besoin et vérifie les réglages de conservation et d’entraînement proposés par l’outil.\n\nPour les textes, images, musiques et codes générés, vérifie les conditions d’utilisation de l’outil et les droits associés aux éléments fournis. Un résultat généré n’est pas automatiquement original, exact ou libre de droits. Évite d’imiter à l’identique une personne, une marque ou une œuvre protégée. Conserve les sources et fais une revue humaine avant publication."
+      ],
+      [
+        "6. Un workflow reproductible",
+        "Documente le processus : déclencheur, données d’entrée, prompt/version, résultat attendu, contrôle, approbateur et procédure en cas d’erreur. Pour les contenus marketing, le contrôle peut inclure les faits, le ton, les droits d’image, les informations commerciales et l’appel à l’action. Pour une automatisation, ajoute un journal et un moyen de revenir à l’étape précédente.\n\nCommence par un petit lot de cas représentatifs, y compris des cas inhabituels. Compare le résultat IA au résultat humain de référence. Si la qualité baisse sur les cas difficiles, réduis le périmètre ou ajoute une étape de validation. N’automatise pas une décision sensible simplement parce qu’elle est techniquement possible."
       ]
     ],
-    "exercise": "Utilise le modèle de prompt ci-dessous pour produire trois versions d'une page de présentation, puis vérifie manuellement chaque affirmation factuelle.",
-    "deliverable": "Bibliothèque de prompts contrôlés",
-    "template": "RÔLE :\\nCONTEXTE :\\nOBJECTIF :\\nPUBLIC :\\nCONTRAINTES :\\nINFORMATIONS FOURNIES :\\nFORMAT DE SORTIE :\\nCRITÈRES DE QUALITÉ :\\nÉLÉMENTS À VÉRIFIER :\\nQUESTIONS À ME POSER AVANT DE CONCLURE :"
+    "exercise": "Atelier de 18 minutes : choisis une tâche répétitive, écris un prompt avec les sept éléments, teste-le sur trois exemples fictifs, vérifie les faits et note les corrections nécessaires. Construis ensuite une mini-fiche de procédure précisant quelles données ne doivent jamais être envoyées à l’outil.",
+    "deliverable": "Une bibliothèque de trois prompts testés et une fiche de contrôle qualité.",
+    "template": "NOM DU PROMPT :\nOBJECTIF :\nCONTEXTE :\nENTRÉES :\nCONTRAINTES :\nFORMAT ATTENDU :\nCRITÈRES DE QUALITÉ :\nFAITS À VÉRIFIER :\nDONNÉES INTERDITES :\nTESTS EFFECTUÉS :\nERREURS OBSERVÉES / VERSION :",
+    "agenda": "8 min — anatomie d’un prompt ; 10 min — décomposer une tâche ; 10 min — vérification des faits ; 8 min — confidentialité et droits ; 18 min — atelier sur trois exemples ; 6 min — documenter et décider."
   },
   {
     "id": "04",
     "title": "Créer une offre claire et honnête",
     "time": "50 min",
-    "objective": "Définir une offre compréhensible, testable et livrable.",
+    "objective": "Transformer un problème validé en une offre compréhensible, délimitée, tarifable et livrable sans promesses trompeuses.",
     "content": [
       [
-        "1. Vendre un résultat précis",
-        "Une offre claire décrit un public, un problème, un livrable, un délai réaliste et les limites du service. « Utilise l'IA pour devenir riche » est vague et invérifiable. « Construis une première page de vente et teste-la auprès de 10 prospects » est concret."
+        "1. Décrire l’offre en une phrase",
+        "Une offre claire nomme le public, le problème, le livrable et le contexte d’utilisation. « Je fais de l’IA pour les entreprises » n’explique pas ce que le client achète. « Je configure un système de réponses aux questions fréquentes pour les petites équipes de service, avec une base de connaissances validée et un guide de mise à jour » est plus précis. Le client doit comprendre ce qui sera livré et ce qui restera de sa responsabilité.\n\nDistingue les moyens des résultats. Tu peux t’engager à produire une maquette, configurer un workflow ou remettre un rapport selon un périmètre défini. Tu ne peux pas garantir une hausse de chiffre d’affaires si elle dépend du marché, du budget, de l’exécution du client et de facteurs extérieurs. Décris les bénéfices attendus comme des hypothèses à mesurer, pas comme des certitudes."
       ],
       [
-        "2. Prix et périmètre",
-        "Le prix doit tenir compte du temps de livraison, des frais, de la valeur pour le client et des alternatives. Les premiers prix sont des hypothèses. Précise ce qui est inclus, ce qui ne l'est pas, les conditions de support et la politique de remboursement."
+        "2. Définir le périmètre et les exclusions",
+        "Écris le nombre de pages, d’automatisations, de révisions, de réunions et de jours de support inclus. Indique les entrées que le client doit fournir, les délais de réponse et les dépendances à des plateformes tierces. Les exclusions ne servent pas à esquiver tes obligations : elles servent à éviter les malentendus et à identifier les changements qui nécessitent un nouveau devis.\n\nPrépare une procédure de changement : le client décrit la demande, tu évalues son impact sur le délai et le prix, puis tu obtiens un accord avant de réaliser le travail supplémentaire. Documente aussi la recette : comment les deux parties déterminent que le livrable est conforme. Pour un outil d’IA, prévois les erreurs possibles, les limites connues et la nécessité d’une validation humaine."
       ],
       [
-        "3. Preuves et promesses",
-        "Ne fabrique ni témoignages, ni captures de revenus, ni compteurs de ventes. Si tu n'as pas encore de résultats clients, présente une démonstration et indique clairement qu'il s'agit d'un exemple."
+        "3. Fixer un prix à tester",
+        "Le prix doit tenir compte de la valeur perçue, des alternatives, de tes coûts, du temps de vente, de la livraison et du support. Calcule d’abord un plancher économique : heures estimées × coût horaire cible, plus frais directs et marge de sécurité. Ensuite, compare ce montant aux budgets et alternatives du public. Un prix élevé n’est pas automatiquement premium ; un prix faible peut rendre le service impossible à livrer correctement.\n\nPour tester, propose un périmètre limité à quelques clients pilotes, avec un prix et des conditions explicites. Ne fais pas passer une remise artificielle pour une promotion si le prix de référence n’a jamais été pratiqué. Si tu offres un pilote gratuit, précise ce qui est gratuit, la durée et ce qui pourrait être payant ensuite. Ne collecte pas de paiement avant d’avoir décrit clairement ce que l’acheteur recevra."
+      ],
+      [
+        "4. Construire une page de vente utile",
+        "Une page de vente répond dans l’ordre aux questions du client : pour qui, quel problème, quelle solution, ce qui est inclus, comment cela fonctionne, le prix total, les délais, les limites, le support et les conditions d’achat. Utilise des exemples réalistes et des captures authentiques. N’invente pas de témoignages, de résultats clients, de compteurs de places ou de statistiques. Si tu présentes une image illustrative, indique-le clairement.\n\nUne bonne page permet aussi de décider de ne pas acheter si l’offre ne correspond pas. Cela réduit les remboursements et améliore la confiance. Les informations légales et contractuelles doivent être accessibles avant la commande, pas cachées après le paiement. Pour une vente en ligne en Belgique, le bouton final doit indiquer sans ambiguïté l’obligation de paiement et les règles propres aux contenus numériques doivent être vérifiées."
+      ],
+      [
+        "5. Gérer les objections sans manipuler",
+        "Une objection peut révéler un manque d’information, une inadéquation ou un risque réel. Si quelqu’un dit « c’est trop cher », demande ce qui lui manque pour juger la valeur, sans le culpabiliser. S’il hésite sur le résultat, explique ce que tu contrôles et ce que tu ne contrôles pas. S’il n’a pas le budget, respecte sa décision et propose éventuellement une ressource gratuite pertinente.\n\nÉvite les fausses urgences, les promesses de gains, les pressions sur les personnes vulnérables et les formulations laissant croire qu’un achat garantit un revenu. Les techniques de vente les plus durables clarifient les choix et rendent les limites visibles. Mesure les ventes, mais aussi les annulations, les demandes d’aide, les plaintes et la satisfaction après livraison."
+      ],
+      [
+        "6. Tester puis améliorer l’offre",
+        "Choisis une seule variable à tester : formulation du problème, public, périmètre, prix ou preuve de confiance. Si tu changes tout en même temps, tu ne sauras pas ce qui a influencé le résultat. Note les visites pertinentes, questions reçues, demandes de devis, ventes et motifs de refus. Les données sont plus utiles lorsqu’elles sont segmentées par public et canal.\n\nAprès quelques ventes pilotes, vérifie le temps réellement passé, les coûts, les erreurs et la satisfaction. Si l’offre se vend mais exige trop de support, simplifie le livrable, améliore l’onboarding ou augmente le prix de manière transparente. Si elle ne se vend pas, reviens aux preuves du problème avant d’investir dans davantage de publicité."
       ]
     ],
-    "exercise": "Écris une offre en 100 mots et fais-la lire à trois personnes de ton public cible. Demande-leur de reformuler ce qu'elles achèteraient.",
-    "deliverable": "Fiche d'offre",
-    "template": "POUR :\\nQUI RENCONTRE :\\nJE PROPOSE :\\nLIVRABLES :\\nCE QUI N'EST PAS INCLUS :\\nPRIX TEST :\\nDÉLAI :\\nSUPPORT :\\nPREUVE DISPONIBLE :\\nRISQUES / LIMITES :"
+    "exercise": "Atelier de 15 minutes : rédige une fiche d’offre d’une page, un périmètre inclus/exclu, un prix test et trois réponses honnêtes aux objections. Fais ensuite relire la page par une personne qui ne connaît pas ton projet et note ce qu’elle n’a pas compris.",
+    "deliverable": "Une fiche d’offre, un périmètre contractuel de base et le plan d’un test commercial.",
+    "template": "PUBLIC :\nPROBLÈME :\nLIVRABLE EXACT :\nDÉLAI / PRÉREQUIS :\nINCLUS :\nEXCLUS :\nPRIX TOTAL ET TVA APPLICABLE :\nSUPPORT / RÉVISIONS :\nLIMITES / RISQUES :\nCRITÈRE D’ACCEPTATION :\nTEST ET MÉTRIQUE :",
+    "agenda": "7 min — formuler l’offre ; 10 min — définir le périmètre ; 8 min — calculer un prix plancher ; 8 min — structurer la page de vente ; 5 min — répondre aux objections ; 9 min — atelier et relecture ; 3 min — prochaine action."
   },
   {
     "id": "05",
     "title": "Construire un prototype no-code",
     "time": "75 min",
-    "objective": "Créer une démonstration qui prouve une partie de la valeur.",
+    "objective": "Créer une démonstration simple qui teste l’hypothèse principale, documenter le parcours utilisateur et vérifier la qualité avant de montrer le prototype à des prospects.",
     "content": [
       [
-        "1. Le prototype minimum",
-        "Un prototype doit tester l'hypothèse principale, pas imiter un produit complet. Il peut s'agir d'une page, d'un formulaire et d'un résultat produit manuellement. Ne développe pas les fonctions secondaires avant d'avoir observé des utilisateurs."
+        "1. Le prototype minimum n’est pas un produit miniature",
+        "Un prototype sert à réduire une incertitude. Il ne doit pas reproduire toutes les fonctionnalités imaginées. Si l’hypothèse est que les clients veulent un rapport plus rapide, un exemple de rapport manuel peut suffire à tester l’intérêt. Si l’hypothèse est qu’un formulaire réduit les erreurs de collecte, un formulaire fonctionnel avec données fictives peut être pertinent.\n\nÉcris la question à laquelle le prototype doit répondre avant de choisir l’outil. Si tu ne peux pas expliquer ce que tu apprendras en le montrant à cinq utilisateurs, le périmètre est probablement trop large. Évite d’ajouter des fonctionnalités parce qu’elles sont amusantes à construire. Chaque élément doit servir l’hypothèse, la compréhension de l’offre ou la sécurité du test."
       ],
       [
-        "2. Parcours utilisateur",
-        "Décris les étapes : arrivée, compréhension de l'offre, action principale, confirmation et étape suivante. Chaque écran doit répondre à une question précise."
+        "2. Dessiner le parcours utilisateur",
+        "Décris les étapes du point de vue de la personne : elle arrive, comprend l’offre, fournit une information, reçoit un résultat et sait quoi faire ensuite. Pour chaque étape, note la question qu’elle se pose, l’action attendue et ce qui pourrait la bloquer. Une interface est utile si elle réduit l’effort et les erreurs, pas seulement si elle paraît moderne.\n\nDessine le parcours sur papier avant de créer la page. Limite les champs de formulaire aux informations nécessaires. Explique pourquoi une donnée est demandée et comment elle sera utilisée. Pour les tests, utilise des données fictives ou anonymisées. N’intègre pas de vraies données de clients dans un outil sans vérifier les permissions, la sécurité et les obligations de confidentialité."
       ],
       [
-        "3. Tester la qualité",
-        "Teste sur téléphone et ordinateur, les liens, les erreurs de saisie, l'accessibilité de base et les messages de confirmation. N'utilise pas de fausses commandes ou de faux avis."
+        "3. Choisir les outils et contrôler les dépendances",
+        "Compare les outils selon le coût total, les limites du forfait gratuit, la facilité d’export, la sécurité, les intégrations, la propriété des données et la possibilité de changer de fournisseur. Un outil gratuit peut devenir coûteux lorsque le volume augmente ou que des fonctionnalités essentielles deviennent payantes. Note les abonnements, limites de requêtes et conditions de résiliation.\n\nCommence avec un seul outil par fonction. Pour une première démonstration, une page, un formulaire et un tableur peuvent suffire. Si tu relies plusieurs services, dessine le flux de données et les points de panne. Garde une copie de tes contenus et une procédure de secours. Ne stocke jamais de clés API dans le code public ou dans un dépôt GitHub accessible à tous ; utilise les variables d’environnement du service d’hébergement."
+      ],
+      [
+        "4. Construire en petites étapes",
+        "Découpe la réalisation en livrables : structure, contenu, formulaire, résultat, messages d’erreur et version mobile. À chaque étape, teste le parcours depuis le début. Prévois les cas inhabituels : champ vide, adresse e-mail invalide, double clic, perte de connexion, donnée inattendue ou service tiers indisponible. Un prototype qui fonctionne uniquement dans ton propre scénario n’est pas prêt à être présenté.\n\nUtilise des données de test et documente ce qui est simulé. Si une étape est réalisée manuellement derrière l’écran, ne prétends pas qu’elle est automatisée. La transparence évite les attentes irréalistes et te permet de tester la valeur sans investir prématurément dans une architecture complexe."
+      ],
+      [
+        "5. Faire un test d’utilisabilité",
+        "Demande à trois à cinq personnes correspondant au public de réaliser une tâche sans leur expliquer chaque clic. Observe les hésitations, erreurs et questions. Ne leur demande pas uniquement « tu aimes ? » ; demande-leur de décrire ce qu’elles pensent que le produit fait et ce qu’elles feraient ensuite. Note les difficultés sans te justifier pendant le test.\n\nClasse les problèmes par gravité : bloquant, confusion importante, amélioration secondaire. Corrige d’abord ce qui empêche d’atteindre le résultat. Teste à nouveau après les corrections. Le nombre de participants ne permet pas de généraliser statistiquement, mais les tests qualitatifs révèlent souvent des problèmes de compréhension faciles à corriger."
+      ],
+      [
+        "6. Contrôle qualité, sécurité et démonstration",
+        "Avant une démonstration, vérifie les liens, les textes, l’affichage mobile, les messages d’erreur, les données envoyées et la procédure de retour. Évite de publier une page qui collecte des informations sans information de confidentialité appropriée. N’affiche pas de données de vrais clients, de captures sensibles ou de secrets techniques. Indique clairement si le prototype est une maquette, une version pilote ou un service opérationnel.\n\nPrépare un scénario de démonstration de cinq minutes : le problème, le parcours, le résultat, les limites et la question à poser au prospect. Après la démo, demande quel aspect serait utile, ce qui manque et ce qui empêcherait un achat. Enregistre les retours dans un tableau et distingue les demandes fréquentes des demandes isolées."
       ]
     ],
-    "exercise": "Dessine un parcours de cinq écrans et construis un prototype avec un outil no-code. Demande à trois personnes de l'utiliser sans les guider.",
-    "deliverable": "Prototype et checklist de test",
-    "template": "ÉCRAN 1 — Promesse :\\nÉCRAN 2 — Explication :\\nÉCRAN 3 — Action utilisateur :\\nÉCRAN 4 — Résultat :\\nÉCRAN 5 — Prochaine étape :\\nTESTS : mobile / liens / erreurs / clarté / accessibilité"
+    "exercise": "Atelier de 30 minutes : écris une hypothèse, dessine le parcours en 5 à 7 étapes, construis une maquette ou une page simple, prépare trois scénarios de test, puis rédige un script de démonstration de cinq minutes. Utilise uniquement des données fictives et note explicitement les éléments simulés.",
+    "deliverable": "Un prototype démontrable, un schéma de parcours, une checklist de test et un script de démonstration.",
+    "template": "HYPOTHÈSE TESTÉE :\nUTILISATEUR CIBLE :\nPARCOURS EN 5–7 ÉTAPES :\nOUTILS ET COÛTS :\nDONNÉES UTILISÉES :\nÉLÉMENTS SIMULÉS :\nSCÉNARIO DE TEST 1 :\nSCÉNARIO DE TEST 2 :\nSCÉNARIO DE TEST 3 :\nPROBLÈMES BLOQUANTS :\nLIMITES À EXPLIQUER :\nDÉCISION APRÈS TEST :",
+    "agenda": "8 min — définir l’hypothèse ; 10 min — dessiner le parcours ; 10 min — choisir les outils ; 25 min — construire la première version ; 12 min — tester le parcours ; 7 min — préparer la démo ; 3 min — noter les limites."
   },
   {
     "id": "06",
     "title": "Marque, contenu et acquisition",
     "time": "60 min",
-    "objective": "Créer un système simple pour attirer une audience pertinente.",
+    "objective": "Définir un positionnement compréhensible, produire du contenu utile et choisir un canal d’acquisition mesurable sans dépendre uniquement des vues ou des abonnés.",
     "content": [
       [
-        "1. Positionnement",
-        "Explique à qui tu t'adresses, ce que tu aides à accomplir et pourquoi ton approche est différente. Un nom et un logo ne remplacent pas une proposition de valeur."
+        "1. Le positionnement en une phrase",
+        "Le positionnement aide la bonne personne à comprendre pourquoi ton offre mérite son attention. Utilise une structure simple : « J’aide [public précis] à [problème ou tâche] grâce à [méthode/livrable], avec [différence vérifiable]. » Évite les expressions vagues comme « révolutionner ton business » ou « automatiser tout ». Si la différence est une rapidité, une spécialisation ou une méthode, explique comment tu la démontres.\n\nChoisis trois messages : le problème principal, le résultat concret que tu peux livrer et la preuve disponible. La preuve peut être une démonstration, un exemple, un processus ou une étude de cas authentique. Si tu n’as pas encore de clients, montre un prototype clairement étiqueté comme tel plutôt que de fabriquer un témoignage."
       ],
       [
-        "2. Contenu utile",
-        "Publie des démonstrations, des études de cas vérifiables, des explications et les limites de ta méthode. Un contenu doit aider le public même s'il n'achète rien."
+        "2. Construire des piliers de contenu",
+        "Trois à quatre piliers suffisent au départ : éducation (expliquer un problème), démonstration (montrer comment tu travailles), preuve (présenter un exemple réel avec contexte) et coulisses (expliquer les décisions et limites). Chaque contenu doit aider le public à comprendre quelque chose, résoudre une petite tâche ou décider si ton offre est pertinente.\n\nÉvite de publier uniquement des citations génériques, des photos de luxe ou des promesses de revenus. Elles peuvent attirer l’attention sans créer de confiance ni de clients adaptés. Un exemple précis comme « voici comment je transforme 20 questions clients en une base de connaissances vérifiable » est plus informatif qu’une affirmation vague sur la richesse grâce à l’IA."
       ],
       [
-        "3. Mesurer le parcours",
-        "Suis les impressions pertinentes, visites, inscriptions, demandes qualifiées et ventes. Ne confonds pas vues et clients. Teste un canal à la fois avant d'augmenter le budget."
+        "3. Réutiliser sans spammer",
+        "Un même sujet peut devenir une courte vidéo, une publication détaillée, une checklist et un e-mail, à condition d’adapter le format et de ne pas publier du contenu vide en série. Prépare un calendrier réaliste, par exemple deux contenus utiles et cinq conversations ciblées par semaine. La régularité utile vaut mieux qu’un volume impossible à maintenir.\n\nChaque contenu doit avoir un objectif : apprendre, obtenir un retour, attirer une visite qualifiée ou faciliter une prise de contact. Choisis une seule action principale. Si tu demandes simultanément de liker, commenter, partager, s’abonner, télécharger et acheter, l’utilisateur ne sait plus quoi faire. Respecte les règles des plateformes et évite les messages automatiques non sollicités."
+      ],
+      [
+        "4. Choisir un canal selon le public",
+        "Le canal doit correspondre à la manière dont ton public découvre des solutions. Les professionnels peuvent être accessibles par e-mail professionnel, réseau local, événements ou partenariats ; les consommateurs peuvent découvrir une offre via recherche, communautés ou contenu vidéo. Ne choisis pas un canal seulement parce qu’il est populaire. Évalue son coût, le temps requis, la qualité des prospects et la possibilité de mesurer les résultats.\n\nTeste un canal pendant une période définie. Note le nombre de contacts pertinents, réponses, conversations, demandes et ventes. Les vues ne sont qu’une étape du parcours. Si un contenu obtient beaucoup de vues mais aucune action pertinente, vérifie si l’audience correspond à l’offre ou si l’appel à l’action est clair."
+      ],
+      [
+        "5. Transformer l’attention en conversation",
+        "Un appel à l’action peut inviter à télécharger une checklist, demander un avis ou réserver un échange. Présente clairement ce qui se passe après le clic. Si tu collectes une adresse e-mail, indique la finalité et respecte les règles applicables au marketing électronique et à la protection des données. Ne suppose pas qu’une personne qui télécharge un fichier accepte automatiquement toutes les newsletters.\n\nPour une prise de contact, personnalise le message avec un élément pertinent et sois transparent sur la raison de l’approche. Évite les fausses familiarités et les affirmations non vérifiées. Donne une sortie simple : la personne peut décliner ou demander à ne plus être contactée. La confiance et la pertinence sont plus durables qu’une séquence insistante."
+      ],
+      [
+        "6. Mesurer la qualité de l’acquisition",
+        "Suis la source du prospect, le coût direct, le temps passé, la qualité du besoin, le taux de réponse, les rendez-vous, les ventes et la marge générée. Un canal qui apporte dix prospects très adaptés peut être plus utile qu’un canal qui génère mille visites non qualifiées. Lorsque tu testes plusieurs messages, change un élément à la fois et garde une période de comparaison raisonnable.\n\nÉtablis une revue hebdomadaire : ce qui a été publié, ce qui a attiré les bonnes personnes, les questions reçues, les résultats commerciaux et la prochaine expérience. Arrête les contenus qui demandent beaucoup de temps sans contribuer à l’objectif, ou transforme-les en format plus léger. Ne prends pas une variation sur un très petit nombre d’observations comme une preuve statistique définitive."
       ]
     ],
-    "exercise": "Prépare un calendrier de sept contenus : trois pédagogiques, deux démonstrations, un retour d'expérience honnête et une présentation de l'offre.",
-    "deliverable": "Calendrier de contenu",
-    "template": "JOUR | SUJET | PUBLIC | PROBLÈME TRAITÉ | FORMAT | APPEL À L'ACTION | INDICATEUR\\n1.\\n2.\\n3.\\n4.\\n5.\\n6.\\n7."
+    "exercise": "Atelier de 20 minutes : écris ton positionnement, définis trois piliers de contenu, rédige trois idées de publication avec un appel à l’action chacune et choisis un canal à tester pendant 14 jours. Crée un tableau de suivi avec des indicateurs de qualité, pas uniquement des vues.",
+    "deliverable": "Un positionnement, un mini-calendrier de contenu sur deux semaines et un tableau d’acquisition.",
+    "template": "J’AIDE [PUBLIC] À [TÂCHE/PROBLÈME] AVEC [LIVRABLE] :\nPREUVE DISPONIBLE :\nPILIER 1 :\nPILIER 2 :\nPILIER 3 :\nIDÉE DE CONTENU / OBJECTIF / CTA :\nCANAL TESTÉ :\nCONTACTS PERTINENTS :\nRÉPONSES :\nCONVERSATIONS :\nVENTES / MARGE :\nDÉCISION À J+14 :",
+    "agenda": "8 min — positionnement ; 10 min — piliers ; 10 min — calendrier réaliste ; 10 min — choisir un canal ; 12 min — rédiger des contenus ; 7 min — métriques ; 3 min — planifier la revue."
   },
   {
     "id": "07",
     "title": "Vendre et livrer un premier projet",
     "time": "60 min",
-    "objective": "Mener une conversation commerciale centrée sur le besoin réel.",
+    "objective": "Mener une conversation commerciale utile, qualifier le besoin, rédiger une proposition claire et livrer un premier projet avec des attentes partagées.",
     "content": [
       [
         "1. Qualifier avant de proposer",
-        "Comprends le problème, sa fréquence, l'impact et la manière dont le client décide. Si ton produit ne répond pas au besoin, dis-le clairement."
+        "Une conversation commerciale commence par le besoin, pas par une présentation de toutes tes fonctionnalités. Comprends la situation actuelle, la fréquence du problème, son impact, les solutions déjà essayées, le calendrier, les personnes qui décident et les contraintes. Demande des exemples concrets. Si le problème n’est pas important ou si ton offre n’est pas adaptée, dis-le.\n\nLa qualification évite de vendre un projet qui ne peut pas fonctionner. Un client peut être intéressé mais ne pas disposer des données, du budget, du temps ou de l’autorité nécessaires. Clarifie ces éléments sans transformer l’entretien en interrogatoire. Résume ce que tu as entendu et demande confirmation avant de proposer une solution."
       ],
       [
-        "2. Déroulé d'un appel",
-        "Présente le but de l'appel, pose des questions ouvertes, reformule le besoin, montre la partie pertinente de la démonstration, précise les limites et propose une prochaine étape sans pression."
+        "2. Structurer une proposition",
+        "Une proposition utile contient le contexte compris, les objectifs, les livrables, le périmètre, les exclusions, les étapes, les responsabilités, le calendrier, le prix total, les modalités de paiement, la durée de validité et le processus de validation. Ajoute les dépendances à des outils tiers et les risques importants. Ne laisse pas le client deviner ce qu’il recevra.\n\nPour un petit projet, une page peut suffire si elle répond à toutes les questions. Pour un projet plus complexe, détaille les jalons et les critères d’acceptation. Les changements de périmètre doivent être validés avant exécution. Conserve la version acceptée et les échanges importants. Les contrats de consommation, les ventes en ligne et les données personnelles peuvent nécessiter des clauses ou informations supplémentaires adaptées à la situation."
       ],
       [
-        "3. Livrer correctement",
-        "Écris les responsabilités, délais, critères d'acceptation, frais, confidentialité, propriété intellectuelle et modalités de fin de service. Pour les consommateurs, respecte les règles de vente à distance et le droit de rétractation applicable."
+        "3. Expliquer le prix et le retour attendu",
+        "Relie le prix aux livrables, au temps, aux compétences, au risque et au support. Tu peux calculer un prix à partir du temps estimé et des coûts, puis vérifier s’il est cohérent avec le marché et la valeur du problème. Évite d’inventer un « retour sur investissement garanti ». Si tu estimes un gain de temps, montre les hypothèses et distingue une projection d’un résultat mesuré.\n\nPrésente les options de façon honnête : périmètre réduit, version complète ou absence d’achat si le besoin n’est pas prioritaire. N’utilise pas une offre fictive pour forcer la décision. Donne au client le temps nécessaire pour examiner la proposition et répondre à ses questions. Une vente adaptée peut être plus durable qu’une vente obtenue sous pression."
+      ],
+      [
+        "4. Gérer le projet et la communication",
+        "Après accord, envoie un récapitulatif : objectif, étapes, contacts, documents nécessaires, calendrier et canal de communication. Organise un point de lancement court. Définis quand tu répondras aux messages, ce qui constitue une urgence et comment les retards de validation affectent le calendrier. Un simple tableau de tâches peut suffire si chaque tâche a un responsable, une date et un statut.\n\nCommunique tôt lorsqu’un risque apparaît. Ne cache pas une difficulté jusqu’à la date de livraison. Propose des options avec leurs conséquences sur le prix, le périmètre et le délai. Pour les données client, limite les accès, protège les fichiers et supprime les copies inutiles selon l’accord et les obligations applicables."
+      ],
+      [
+        "5. Livraison et réception",
+        "Une livraison professionnelle inclut le livrable, les instructions d’utilisation, les limites connues, les accès nécessaires et une méthode de signalement des problèmes. Compare le résultat aux critères d’acceptation convenus. Pour un système automatisé ou IA, fournis des exemples de cas réussis et d’échecs, les conditions de supervision et la procédure manuelle de secours.\n\nDemande une validation explicite selon la procédure convenue. Si le client signale un problème, classe-le : défaut de conformité, changement demandé, amélioration ou dépendance externe. Réponds avec une solution et un calendrier réaliste. Ne promets pas une maintenance illimitée si elle n’est pas incluse dans le contrat."
+      ],
+      [
+        "6. Apprendre de la première vente",
+        "Après la livraison, mesure le temps réel, les coûts, les questions, les retouches, la satisfaction et la marge. Demande un retour ciblé : « quelle partie a été la plus utile ? », « qu’est-ce qui était confus ? », « qu’aurais-tu voulu savoir avant l’achat ? ». Demande une autorisation distincte avant de publier un témoignage ou le nom du client. Ne modifie pas ses propos pour lui attribuer des résultats qu’il n’a pas affirmés.\n\nTransforme les tâches répétées en checklist, modèle ou procédure. Si chaque projet reste entièrement personnalisé, tu ne peux pas encore promettre une livraison standardisée. Améliore progressivement le processus en conservant les exceptions nécessaires. Le premier client sert à apprendre, pas à prétendre que ton modèle est déjà validé à grande échelle."
       ]
     ],
-    "exercise": "Simule un appel de 15 minutes avec un ami jouant le rôle du client. Après l'appel, écris les besoins, objections et prochaines étapes.",
-    "deliverable": "Script de découverte",
-    "template": "OUVERTURE :\\nQUEL EST LE PROBLÈME ?\\nQUAND S'EST-IL PRODUIT LA DERNIÈRE FOIS ?\\nQU'AVEZ-VOUS DÉJÀ ESSAYÉ ?\\nQUEL EST L'IMPACT ?\\nQU'EST-CE QUI COMPTE POUR VOUS ?\\nREFORMULATION :\\nDÉMONSTRATION PERTINENTE :\\nLIMITES :\\nPROCHAINE ÉTAPE CONVENUE :"
+    "exercise": "Atelier de 18 minutes : prépare un guide de découverte de 8 questions, une proposition d’une page et une checklist de livraison. Ajoute une règle de changement de périmètre et un exemple de message de suivi non insistant.",
+    "deliverable": "Un script de découverte, une proposition commerciale et une checklist de livraison.",
+    "template": "BESOIN RÉSUMÉ :\nOBJECTIF :\nLIVRABLES :\nEXCLUSIONS :\nRESPONSABILITÉS DU CLIENT :\nÉTAPES / DATES :\nPRIX / PAIEMENT :\nCRITÈRES D’ACCEPTATION :\nSUPPORT INCLUS :\nRISQUES / DÉPENDANCES :\nPROCHAINE ÉTAPE :",
+    "agenda": "8 min — qualifier ; 10 min — structurer la proposition ; 8 min — prix et objections ; 10 min — gestion de projet ; 10 min — livraison ; 11 min — atelier ; 3 min — prochaine action."
   },
   {
     "id": "08",
     "title": "Automatiser sans perdre le contrôle",
     "time": "60 min",
-    "objective": "Concevoir une automatisation fiable, observable et réversible.",
+    "objective": "Concevoir une automatisation fiable, documentée, sécurisée et réversible, avec une gestion des erreurs et une supervision humaine adaptée.",
     "content": [
       [
-        "1. Schéma d'un workflow",
-        "Définis le déclencheur, les données entrantes, les règles, l'action, les erreurs possibles et la personne responsable. Prévois une solution manuelle si l'automatisation échoue."
+        "1. Décrire le workflow de bout en bout",
+        "Un workflow se compose d’un déclencheur, d’entrées, de règles, d’actions, d’une sortie et d’un mécanisme de contrôle. Exemple : un formulaire reçu déclenche la création d’une tâche, puis une notification à la personne responsable. Décris ce qui se passe lorsque l’entrée manque, lorsque le service est indisponible ou lorsque le même événement arrive deux fois.\n\nDessine le flux avant de choisir la plateforme. Pour chaque étape, précise les données utilisées, la personne responsable et le résultat attendu. Les étapes invisibles sont souvent celles qui provoquent les problèmes : permissions, format de date, doublons, quotas, erreurs d’API ou absence de notification. Une automatisation n’est pas complète tant que tu ne sais pas comment elle échoue."
       ],
       [
-        "2. Contrôle humain",
-        "Pour les décisions sensibles, les paiements, les communications à fort impact et les données personnelles, conserve des vérifications et permissions appropriées. Teste sur un environnement fictif avant la production."
+        "2. Automatiser une tâche stable",
+        "Automatise d’abord une tâche répétitive, à règles claires et à risque limité. Si le processus change chaque semaine ou nécessite beaucoup de jugement, standardise-le avant de l’automatiser. Mesure le temps et les erreurs actuels, puis compare avec le workflow. Le gain théorique n’est pas suffisant : compte aussi la configuration, la maintenance, la surveillance et les corrections.\n\nUn bon premier cas peut être le classement d’un formulaire, l’envoi d’une confirmation ou la création d’une tâche. Les décisions sensibles — refus, santé, crédit, recrutement ou sanctions — nécessitent une analyse spécifique et une supervision adaptée. Ne laisse pas un modèle génératif prendre seul une décision importante simplement parce qu’il peut produire une réponse."
       ],
       [
-        "3. Journal et incidents",
-        "Garde des journaux proportionnés, limite les accès, évite de stocker des données inutiles et définis comment désactiver le workflow en cas de problème."
+        "3. Gérer les erreurs et les doublons",
+        "Prévois une stratégie pour les échecs : nouvelle tentative limitée, file d’attente, notification et procédure manuelle. Une répétition automatique infinie peut créer des coûts, des messages en double ou des effets indésirables. Utilise un identifiant unique ou une clé d’idempotence lorsqu’une action ne doit être réalisée qu’une fois.\n\nTeste les cas limites : champs vides, caractères inattendus, retard de réponse, service tiers indisponible, limite de requêtes, utilisateur qui clique deux fois et événement reçu en double. Définis une personne qui reçoit l’alerte et un délai de réaction. Sans responsable, le message d’erreur peut rester ignoré pendant des jours."
+      ],
+      [
+        "4. Sécurité et données",
+        "Accorde aux intégrations les permissions minimales nécessaires. Protège les clés API dans des variables d’environnement ou un gestionnaire de secrets, jamais dans le code public, les captures d’écran ou les documents partagés. Utilise des comptes de service lorsque c’est approprié et révise régulièrement les accès. En cas de fuite, révoque le secret et examine les journaux.\n\nNe transmets que les données nécessaires. Vérifie les rôles des fournisseurs, les lieux de traitement, les conditions de conservation et les obligations d’information. Pour un test, utilise des données fictives. Ajoute une trace d’exécution qui permet de comprendre ce qui s’est passé sans stocker inutilement des données personnelles ou des contenus sensibles."
+      ],
+      [
+        "5. Supervision humaine et procédure de secours",
+        "Définis ce qui doit être vérifié par une personne, ce qui peut être exécuté automatiquement et ce qui exige une approbation. Pour un e-mail généré par IA, un brouillon soumis à validation peut être plus sûr qu’un envoi direct. Pour une modification de données, un journal et une possibilité d’annulation sont essentiels.\n\nDocumente la procédure manuelle si le workflow s’arrête : qui prend le relais, où retrouver les éléments en attente et comment éviter de traiter deux fois le même dossier. Le système doit pouvoir être désactivé sans bloquer toute l’activité. Teste régulièrement la procédure de secours au lieu de supposer qu’elle fonctionnera le jour d’un incident."
+      ],
+      [
+        "6. Mesurer la fiabilité",
+        "Suis le taux de réussite, les erreurs par type, les doublons, le délai de traitement, les interventions humaines, le coût par exécution et les incidents de données. Une automatisation qui économise du temps mais provoque des erreurs coûteuses n’est pas une amélioration. Définis un seuil d’alerte et une revue périodique.\n\nAvant de déployer, exécute un pilote sur un petit volume, compare les résultats avec le processus manuel et fais vérifier les cas atypiques. Conserve une version de configuration et une procédure de retour arrière. N’augmente le volume que lorsque les erreurs sont comprises et maîtrisées."
       ]
     ],
-    "exercise": "Crée un diagramme déclencheur → traitement → validation → action → journal, avec au moins trois scénarios d'erreur.",
-    "deliverable": "Fiche d'automatisation",
-    "template": "DÉCLENCHEUR :\\nENTRÉES :\\nRÈGLES :\\nACTION :\\nVALIDATION HUMAINE :\\nERREURS POSSIBLES :\\nPLAN DE SECOURS :\\nDONNÉES CONSERVÉES :\\nQUI PEUT DÉSACTIVER ?"
+    "exercise": "Atelier de 20 minutes : dessine un workflow de 5 à 8 étapes, liste cinq modes d’échec, définis les alertes et le responsable, puis écris une procédure manuelle de secours. Teste mentalement un doublon, une donnée manquante et une indisponibilité de service.",
+    "deliverable": "Un diagramme de workflow, une matrice de risques et une checklist de mise en production.",
+    "template": "DÉCLENCHEUR :\nENTRÉES / DONNÉES :\nÉTAPES :\nRÈGLES / APPROBATIONS :\nSORTIE ATTENDUE :\nERREURS POSSIBLES :\nGESTION DES DOUBLONS :\nALERTES / RESPONSABLE :\nDONNÉES À PROTÉGER :\nPROCÉDURE MANUELLE :\nMÉTRIQUES / SEUILS :\nPLAN DE RETOUR ARRIÈRE :",
+    "agenda": "8 min — cartographier ; 10 min — choisir la tâche ; 12 min — erreurs et doublons ; 10 min — sécurité ; 8 min — supervision et secours ; 9 min — atelier ; 3 min — revue."
   },
   {
     "id": "09",
     "title": "Finances, marge et trésorerie",
     "time": "60 min",
-    "objective": "Évaluer si l'activité gagne réellement de l'argent.",
+    "objective": "Construire un budget simple, calculer la marge contributive et le seuil de rentabilité, suivre la trésorerie et prendre des décisions à partir de chiffres prudents.",
     "content": [
       [
-        "1. Calcul de marge",
-        "Pour chaque vente, soustrais les coûts directement liés à sa livraison. Ensuite, tiens compte des frais fixes, marketing, remboursements, cotisations et impôts. Fais confirmer tes obligations fiscales et comptables en Belgique par un professionnel."
+        "1. Séparer ventes, résultat et trésorerie",
+        "Le chiffre d’affaires est un flux de ventes, le résultat compare produits et charges selon les règles comptables applicables, et la trésorerie correspond à l’argent disponible à un instant donné. Ces trois notions ne coïncident pas forcément. Une facture peut être émise avant son paiement ; une dépense peut être payée avant de générer des ventes ; la TVA collectée n’est pas une somme que tu peux considérer comme ton bénéfice.\n\nTiens un calendrier des entrées et sorties de trésorerie, pas seulement un total mensuel. Note les dates d’échéance, les abonnements, les remboursements possibles, les taxes et les périodes où les ventes ralentissent. Pour la comptabilité et le traitement fiscal, fais confirmer les règles applicables à ton statut en Belgique par une source officielle ou un professionnel compétent."
       ],
       [
-        "2. Trésorerie",
-        "Une entreprise peut être rentable sur le papier et manquer de liquidités si les encaissements arrivent après les dépenses. Prévois les échéances, un coussin de sécurité et un plan si les ventes sont plus faibles que prévu."
+        "2. Calculer la marge contributive",
+        "La marge contributive d’une vente correspond au prix net retenu pour l’analyse moins les coûts variables directement liés à cette vente. Pour un service vendu 200 €, si les coûts de sous-traitance, de paiement et d’outils directement imputables totalisent 45 €, la marge contributive est de 155 € avant frais fixes, rémunération, impôts et cotisations. Cette marge contribue à payer les coûts fixes.\n\nNe confonds pas une marge élevée avec un bénéfice net. Une activité peut avoir une bonne marge par vente mais trop peu de ventes pour couvrir ses coûts fixes. Elle peut aussi avoir beaucoup de ventes et une trésorerie fragile si les clients paient tard. Calcule les coûts avec prudence et inclus le temps de support, les révisions et les remboursements probables."
       ],
       [
-        "3. Mesures utiles",
-        "Suis les ventes encaissées, marge contributive, coût d'acquisition, taux de conversion, remboursements, résiliations et temps de livraison. N'augmente pas les dépenses publicitaires sur la base d'une seule vente."
+        "3. Le seuil de rentabilité",
+        "Une approximation simple du nombre de ventes nécessaires pour couvrir les frais fixes est : frais fixes ÷ marge contributive par vente. Si les frais fixes sont de 600 € par mois et que chaque vente contribue à hauteur de 150 €, il faut environ quatre ventes pour couvrir ces frais fixes, avant d’ajouter les autres obligations et la rémunération souhaitée. C’est un modèle simplifié : taxes, commissions, coûts par palier et variations de prix peuvent changer le résultat.\n\nFais trois scénarios : prudent, central et optimiste. Le scénario prudent ne doit pas supposer que toutes les personnes contactées achèteront. Estime les conversions à partir de tes propres observations quand tu en as, et indique clairement les hypothèses lorsque tu n’as pas encore de données. Le but n’est pas de prédire parfaitement mais de comprendre quelles hypothèses rendent le projet fragile."
+      ],
+      [
+        "4. Budget et dépenses",
+        "Classe les dépenses : indispensables au service, acquisition, outils, sous-traitance, administration et dépenses facultatives. Pour chaque dépense, note le problème qu’elle résout, le coût mensuel, la date de renouvellement, les alternatives et le critère qui justifie de la conserver. Les abonnements oubliés et les outils redondants grignotent la marge.\n\nAvant une dépense publicitaire, fixe un plafond de test et une métrique d’arrêt. Ne finance pas une campagne avec de l’argent dont tu as besoin pour tes dépenses essentielles. Le coût par prospect n’est pas le coût par client ; calcule le coût d’acquisition à partir des dépenses et du nombre de nouveaux clients pertinents, puis compare-le à la marge réelle générée."
+      ],
+      [
+        "5. Facturation, remboursements et réserves",
+        "Définis une procédure de facturation, de suivi des paiements et de relance courtoise. Conserve les documents nécessaires et protège leur accès. Pour les ventes numériques, précise les prix, les taxes applicables, le contenu fourni, les modalités de support et les règles de rétractation/remboursement conformément à la loi. Une politique écrite ne peut pas supprimer les droits impératifs des consommateurs.\n\nPrévois une réserve de trésorerie adaptée à tes obligations et aux risques de l’activité. Les fonds reçus ne sont pas tous disponibles pour être dépensés : il peut y avoir des remboursements, des litiges, des frais, de la TVA ou des cotisations. La proportion à réserver dépend de ta situation et doit être confirmée avec un professionnel, pas inventée au hasard."
+      ],
+      [
+        "6. Revue financière hebdomadaire",
+        "Chaque semaine, compare le budget aux dépenses réelles, vérifie les factures en attente, les remboursements, la trésorerie disponible et les ventes par canal. Note les décisions prises : réduire un outil, modifier un prix, améliorer le périmètre ou retarder un investissement. Un tableau de bord trop complexe n’est pas nécessaire au départ, mais les chiffres doivent être cohérents et mis à jour.\n\nÉvite de prendre des décisions à partir d’une seule journée ou d’un seul client. Recherche les tendances sur une période suffisante et note les événements inhabituels. Si les coûts réels dépassent systématiquement le budget, corrige les hypothèses et le processus. La discipline financière consiste à regarder les faits même lorsqu’ils contredisent ton plan initial."
       ]
     ],
-    "exercise": "Complète un budget mensuel avec trois scénarios : prudent, central et optimiste. Utilise des hypothèses explicites et modifie-les si les résultats observés divergent.",
-    "deliverable": "Budget mensuel",
-    "template": "VENTES ENCAISSÉES :\\nREMBOURSEMENTS :\\nFRAIS DE PAIEMENT :\\nOUTILS :\\nPUBLICITÉ :\\nSOUS-TRAITANCE :\\nAUTRES CHARGES :\\nTRÉSORERIE DE DÉPART :\\nTRÉSORERIE DE FIN :\\nHYPOTHÈSES ET RISQUES :"
+    "exercise": "Atelier de 20 minutes : remplis un budget mensuel avec frais fixes, coûts variables, prix, marge et trois scénarios de ventes. Calcule le seuil de couverture des frais fixes, puis écris trois règles de décision pour les dépenses et la trésorerie.",
+    "deliverable": "Un budget mensuel, un calcul de marge et un tableau de bord financier hebdomadaire.",
+    "template": "PRIX DE VENTE (BASE DE CALCUL) :\nCOÛTS VARIABLES PAR VENTE :\nMARGE CONTRIBUTIVE :\nFRAIS FIXES MENSUELS :\nSEUIL DE VENTES :\nSCÉNARIO PRUDENT :\nSCÉNARIO CENTRAL :\nSCÉNARIO OPTIMISTE :\nFACTURES À RECEVOIR :\nSORTIES À VENIR :\nRÉSERVES / OBLIGATIONS À CONFIRMER :\nDÉCISION DE LA SEMAINE :",
+    "agenda": "8 min — distinguer les notions ; 10 min — calculer la marge ; 10 min — seuil de rentabilité ; 8 min — budget et acquisition ; 8 min — trésorerie et obligations ; 13 min — atelier ; 3 min — revue."
   },
   {
     "id": "10",
-    "title": "Passer d'un service à un produit",
+    "title": "Passer d’un service à un produit",
     "time": "60 min",
-    "objective": "Décider quand standardiser et transformer une prestation en produit.",
+    "objective": "Identifier les tâches répétitives d’un service, standardiser ce qui peut l’être et tester un produit réutilisable sans investir trop tôt dans le développement.",
     "content": [
       [
-        "1. Identifier les répétitions",
-        "Note les étapes répétées chez plusieurs clients. Une fonction ne doit être intégrée au logiciel que si plusieurs utilisateurs en ont réellement besoin."
+        "1. Repérer ce qui se répète",
+        "Après plusieurs missions, compare les étapes, les questions, les fichiers et les résultats. Qu’est-ce qui reste identique ? Qu’est-ce qui doit être personnalisé ? Un produit peut être un modèle, une bibliothèque, une formation, un outil ou un workflow. Mais il ne suffit pas de mettre un document en ligne : il faut un problème clair, une expérience d’utilisation et un résultat que le client peut comprendre.\n\nNe standardise pas trop tôt. Si chaque client demande un résultat radicalement différent, tu dois peut-être mieux segmenter le public ou améliorer le service. Note les demandes récurrentes et mesure leur fréquence. Une fonction demandée par un seul client n’est pas automatiquement une priorité pour tout le marché."
       ],
       [
-        "2. Tester avant de développer",
-        "Propose un pilote, observe l'usage et mesure si le client revient. Les déclarations d'intérêt sont moins solides que l'utilisation régulière et le paiement."
+        "2. Choisir le bon format",
+        "Le format dépend du problème. Une checklist convient à un processus simple ; un modèle peut accélérer une tâche ; une formation aide à apprendre une méthode ; un logiciel convient lorsque l’exécution répétée et les données justifient l’automatisation. Choisis le format le plus simple qui livre la valeur attendue.\n\nCompare le coût de création, la maintenance, le support, la distribution et le risque d’obsolescence. Un modèle peut être rapide à produire mais nécessiter des mises à jour ; un logiciel peut avoir un coût initial et une responsabilité de sécurité plus élevés. Le produit numérique n’est pas forcément plus rentable qu’un service : le support et l’acquisition restent nécessaires."
       ],
       [
-        "3. Choisir le modèle",
-        "Un abonnement implique des coûts récurrents de support, hébergement, sécurité, mises à jour et résiliation. Calcule la marge et prévois les obligations de disponibilité et de protection des données."
+        "3. Construire une version vendable minimale",
+        "Commence avec un noyau complet, pas une collection de pages inachevées. Décris ce que l’acheteur pourra faire, ce qu’il doit savoir au préalable, les formats fournis et les limites. Fais tester par quelques personnes qui n’ont pas participé à la création. Observe si elles arrivent au résultat sans explication supplémentaire.\n\nPour une formation, inclue des objectifs, des explications, des exemples, des exercices, des modèles et des critères d’auto-évaluation. Pour un outil, ajoute un guide de démarrage, des messages d’erreur, une politique de mise à jour et un canal de support défini. Un produit de qualité doit réduire l’incertitude du client, pas simplement augmenter le nombre de fichiers."
+      ],
+      [
+        "4. Tester la demande avant l’investissement",
+        "Présente une version pilote clairement identifiée et demande des retours sur l’usage réel. Si tu pré-vends, explique ce qui est prêt, ce qui reste à construire, la date de livraison et les conditions en cas de retard. N’utilise pas de fausse rareté et ne laisse pas penser que le produit est complet si ce n’est pas le cas.\n\nCompare l’intérêt déclaré aux comportements : téléchargement, utilisation, achèvement, demandes de support, renouvellement ou recommandation. Une vente initiale peut être influencée par la nouveauté ; la valeur durable se voit lorsque le produit aide réellement et que le client le recommande ou revient."
+      ],
+      [
+        "5. Support et mises à jour",
+        "Définis un canal de support, les horaires ou délais de réponse raisonnables, le type d’aide inclus et les limites. Ne promets pas un accompagnement illimité si le prix ne le permet pas. Documente les questions fréquentes et transforme les réponses récurrentes en aide intégrée. Pour un produit lié à l’IA ou à des outils tiers, indique la date de mise à jour et les dépendances connues.\n\nSi tu modifies substantiellement un produit vendu pour une période donnée, vérifie les obligations contractuelles et légales applicables. Les contenus et services numériques vendus aux consommateurs sont soumis à des règles de conformité ; les droits légaux ne peuvent pas être écartés par une phrase générique. Garde une trace des versions, corrections et incidents."
+      ],
+      [
+        "6. Décider si le produit est viable",
+        "Mesure les ventes, le coût d’acquisition, la marge, le temps de support par client, le taux d’utilisation, les demandes de remboursement et les retours. Si le produit génère des ventes mais un support très élevé, améliore l’onboarding, le produit ou le prix. Si l’utilisation est faible, cherche si le problème est la qualité, le public, le format ou la promesse de la page de vente.\n\nFixe une date de revue et des critères de poursuite. Tu peux décider de maintenir un produit de niche, de l’améliorer, de le transformer en service ou de l’arrêter. L’objectif n’est pas d’automatiser à tout prix, mais de créer un modèle que tu peux livrer durablement avec une qualité acceptable."
       ]
     ],
-    "exercise": "Liste les tâches répétées dans trois projets ou cas fictifs. Choisis une seule fonction à tester et définis comment mesurer son utilité.",
-    "deliverable": "Spécification de produit minimum",
-    "template": "UTILISATEUR CIBLE :\\nTÂCHE RÉPÉTÉE :\\nFRÉQUENCE :\\nSOLUTION ACTUELLE :\\nFONCTION MINIMUM :\\nPREUVE DE DEMANDE :\\nCOÛTS RÉCURRENTS :\\nMESURE D'UTILITÉ :\\nCRITÈRE D'ARRÊT :"
+    "exercise": "Atelier de 20 minutes : liste dix tâches issues de tes projets, marque celles qui se répètent, choisis un format de produit, définis le minimum complet et prépare un test auprès de cinq utilisateurs. Estime le coût de création, le support par client et la maintenance mensuelle.",
+    "deliverable": "Une fiche de produit minimum, un plan pilote et une estimation de coûts de maintenance.",
+    "template": "TÂCHES RÉPÉTÉES :\nPUBLIC :\nPROBLÈME :\nFORMAT CHOISI ET POURQUOI :\nVERSION MINIMALE COMPLÈTE :\nCE QUI N’EST PAS INCLUS :\nTESTEURS / CRITÈRES :\nCOÛT DE CRÉATION :\nSUPPORT PAR CLIENT :\nMAINTENANCE :\nSEUIL DE POURSUITE :",
+    "agenda": "8 min — repérer les répétitions ; 10 min — choisir le format ; 10 min — définir la version minimale ; 10 min — test de demande ; 8 min — support et mises à jour ; 11 min — atelier ; 3 min — décision."
   },
   {
     "id": "11",
     "title": "Distribution, partenariats et rétention",
     "time": "50 min",
-    "objective": "Construire une acquisition reproductible et un service durable.",
+    "objective": "Construire un canal d’acquisition adapté, créer des partenariats transparents et améliorer l’expérience après achat pour obtenir une croissance plus durable.",
     "content": [
       [
-        "1. Un canal à la fois",
-        "Choisis un canal selon ton public et tes ressources : contenu, recommandations, partenaires, événements ou publicité. Documente ce qui fonctionne et ce qui ne fonctionne pas."
+        "1. Choisir un canal principal",
+        "Au début, privilégie un canal que tu peux pratiquer régulièrement et mesurer. Un canal principal ne signifie pas ignorer les autres ; cela signifie apprendre un mécanisme avant de disperser ton temps. Choisis en fonction du public, de la confiance requise, du coût et de la durée avant résultat. Le contenu peut demander du temps avant d’attirer des prospects ; la prospection ciblée demande de la préparation et doit respecter les règles de communication ; les partenariats exigent une relation de confiance.\n\nDéfinis une expérience de deux à quatre semaines, un budget maximal et un résultat attendu. Mesure les contacts pertinents, les réponses, les conversations, les ventes et la marge. N’augmente pas le budget uniquement parce que les impressions montent. Vérifie la qualité des prospects et la capacité à les servir."
       ],
       [
-        "2. Fidéliser",
-        "La fidélisation vient d'une valeur régulière, d'une intégration claire, d'un support fiable et de la résolution rapide des problèmes. Ne rends pas l'annulation volontairement difficile."
+        "2. Partenariats utiles et transparents",
+        "Un partenaire utile touche le même public avec une offre complémentaire. Prépare une proposition claire : qui est le public, quelle valeur reçoit-il, qui réalise chaque tâche, comment les prospects sont suivis et comment la rémunération est calculée. Évite les accords vagues où chacun suppose que l’autre s’occupe du suivi.\n\nSi une recommandation est rémunérée, si un lien est affilié ou si un contenu est sponsorisé, indique-le de façon claire lorsque les règles applicables l’exigent. Ne demande pas au partenaire de publier un témoignage qu’il ne peut pas justifier. Les deux parties doivent connaître les limites de l’offre et la procédure à suivre lorsqu’un client rencontre un problème."
       ],
       [
-        "3. Grandir sans casser la qualité",
-        "Documente les processus, automatise les tâches répétitives et mesure les incidents. Recrute lorsque la demande récurrente justifie le coût, pas uniquement pour donner une image plus grande."
+        "3. L’expérience après achat",
+        "La distribution ne s’arrête pas à la vente. Un onboarding clair explique où commencer, ce qui est inclus, le temps estimé, les prérequis, les ressources disponibles et le canal de support. Pour une formation, donne une feuille de route, un premier exercice faisable et un moyen de suivre les progrès. Réduis le temps entre l’achat et la première valeur réelle.\n\nLes clients qui ne comprennent pas comment commencer peuvent demander un remboursement ou ne jamais utiliser le produit. Observe les points d’abandon et les questions répétées. Améliore les instructions plutôt que d’accuser l’utilisateur de manquer de motivation. La rétention doit venir d’une valeur continue et d’attentes honnêtes, pas de la difficulté à annuler ou à quitter un service."
+      ],
+      [
+        "4. Recommandations et témoignages",
+        "Après une expérience réelle, tu peux demander un retour précis : ce qui a été utile, ce qui a changé, ce qui reste à améliorer. Demande l’autorisation avant de publier le nom, l’image, le message ou les résultats du client. Ne transforme pas un résultat exceptionnel en résultat typique et ne retire pas le contexte qui permet de le comprendre.\n\nSi tu utilises des études de cas, indique la situation de départ, le périmètre, la durée, les actions réalisées et les limites. Les images d’illustration doivent être identifiées comme telles. Les témoignages fictifs ou les revenus inventés peuvent induire en erreur et fragiliser la confiance comme la conformité juridique."
+      ],
+      [
+        "5. Construire une boucle d’amélioration",
+        "Une boucle simple : attirer des personnes pertinentes, comprendre leurs questions, améliorer l’offre, livrer, recueillir un retour et adapter le contenu. Chaque étape doit être reliée à une métrique. Si les prospects ne comprennent pas l’offre, améliore le message. Si les ventes sont correctes mais les clients n’utilisent pas le produit, améliore l’onboarding. Si la satisfaction est bonne mais la marge faible, revois le coût ou le périmètre.\n\nFais une revue mensuelle qui examine les ventes, les sources, les retours, les plaintes, les remboursements et les recommandations. Garde les apprentissages et décide d’une seule priorité d’amélioration pour la période suivante. Une croissance saine est un système d’apprentissage, pas une course à publier davantage."
       ]
     ],
-    "exercise": "Élabore un plan de distribution de 30 jours avec une expérience par semaine, un budget maximum et une règle d'arrêt.",
-    "deliverable": "Plan de distribution",
-    "template": "CANAL :\\nPUBLIC :\\nMESSAGE :\\nACTION HEBDOMADAIRE :\\nBUDGET MAXIMUM :\\nINDICATEUR :\\nSEUIL DE RÉUSSITE :\\nSEUIL D'ARRÊT :\\nAPPRENTISSAGE :"
+    "exercise": "Atelier de 15 minutes : choisis un canal principal et un partenaire potentiel, rédige une proposition de collaboration transparente, puis crée un message d’onboarding pour un nouveau client et trois questions de retour après utilisation.",
+    "deliverable": "Un plan d’acquisition de 30 jours, une proposition de partenariat et un parcours d’onboarding.",
+    "template": "CANAL PRINCIPAL :\nPUBLIC VISÉ :\nBUDGET / TEMPS MAXIMUM :\nMÉTRIQUES :\nPARTENAIRE POSSIBLE :\nVALEUR POUR LE PARTENAIRE :\nRÉMUNÉRATION / DIVULGATION :\nMESSAGE D’ONBOARDING :\nQUESTIONS DE RETOUR :\nPRIORITÉ DU MOIS :",
+    "agenda": "7 min — choisir le canal ; 8 min — partenariat ; 8 min — onboarding ; 7 min — témoignages et autorisations ; 8 min — boucle d’amélioration ; 9 min — atelier ; 3 min — action."
   },
   {
     "id": "12",
-    "title": "Plan d'exécution sur 90 jours",
+    "title": "Plan d’exécution sur 90 jours",
     "time": "45 min",
-    "objective": "Transformer la formation en plan d'expériences et de décisions.",
+    "objective": "Transformer les apprentissages en un plan réaliste de 90 jours avec des expériences, des critères de décision, une revue hebdomadaire et un budget maîtrisé.",
     "content": [
       [
-        "Jours 1–30 : découverte",
-        "Interroge le public, analyse les solutions existantes et teste plusieurs propositions. Objectif : trouver un problème précis et des signaux crédibles de demande."
+        "1. Le but des 90 jours",
+        "Le plan de 90 jours ne garantit pas un revenu ni un lancement réussi. Il organise des expériences pour apprendre plus vite et limiter les dépenses inutiles. Le premier objectif est de comprendre un public et son problème ; le deuxième est de tester une offre et de livrer une première version ; le troisième est de décider, à partir des résultats, ce qu’il faut améliorer, répéter ou arrêter.\n\nChoisis un seul projet principal et un public précis. Fixe une limite de temps et d’argent que tu peux réellement consacrer sans mettre en danger tes dépenses essentielles. Prévois une cadence compatible avec tes études, ton emploi et tes obligations. Un plan durable vaut mieux qu’un calendrier irréaliste abandonné au bout de deux semaines."
       ],
       [
-        "Jours 31–60 : pilote",
-        "Construis un produit minimum, fais-le tester, mesure l'utilisation et demande des retours. Corrige les problèmes avant d'augmenter la promotion."
+        "2. Jours 1 à 30 : découvrir",
+        "Semaine 1 : choisir trois niches et faire une première recherche des alternatives. Semaine 2 : contacter des personnes pertinentes et réaliser des entretiens. Semaine 3 : synthétiser les problèmes récurrents, les budgets, les objections et les solutions actuelles. Semaine 4 : sélectionner une hypothèse et définir un test commercial. Chaque semaine doit produire un livrable et une décision.\n\nÀ la fin du premier mois, tu dois pouvoir expliquer ce que tu as appris, les preuves observées et ce que tu ne sais toujours pas. Si les signaux sont faibles, ne construis pas une application complète pour sauver l’idée. Change le segment, le problème ou l’hypothèse et recommence une expérience plus précise."
       ],
       [
-        "Jours 61–90 : décision",
-        "Examine les ventes, coûts, satisfaction, demandes répétées et risques. Choisis de continuer, modifier le public, modifier l'offre ou arrêter. Un arrêt raisonné peut éviter de perdre davantage de temps et d'argent."
+        "3. Jours 31 à 60 : proposer et livrer",
+        "Construis le plus petit livrable qui permet de tester l’offre. Prépare la page, la proposition, le prix, le périmètre et les conditions d’achat. Présente-la aux personnes concernées et demande un engagement réel, sans pression ni fausse urgence. Si tu obtiens un pilote, livre ce qui a été promis et mesure le temps, les coûts, les difficultés et la satisfaction.\n\nDocumente les retours et compare le résultat à tes hypothèses initiales. Si personne n’achète, cherche ce qui bloque avant d’investir davantage. Si des personnes achètent mais que la livraison est trop coûteuse, réduis le périmètre ou améliore le processus. La validation commerciale et la capacité à livrer doivent avancer ensemble."
+      ],
+      [
+        "4. Jours 61 à 90 : améliorer et décider",
+        "Choisis le point le plus limitant : acquisition, compréhension de l’offre, conversion, qualité de livraison, marge ou support. Réalise une expérience ciblée. Standardise les étapes qui se répètent, améliore l’onboarding et supprime les dépenses qui n’apportent pas de valeur mesurable. Ne passe à une campagne plus importante que si le processus de vente et de livraison est suffisamment stable.\n\nÀ la fin du troisième mois, fais un bilan honnête : preuves de demande, nombre de ventes, marge, temps passé, satisfaction, remboursements, risques et prochaine hypothèse. Les décisions possibles sont continuer, ajuster, changer de segment, mettre en pause ou arrêter. Une décision d’arrêt prise à partir de critères prévus peut être un excellent résultat si elle évite un investissement disproportionné."
+      ],
+      [
+        "5. La revue hebdomadaire de 30 minutes",
+        "Chaque semaine, réponds à cinq questions : qu’avais-je prévu ? Qu’ai-je réellement fait ? Qu’ai-je appris auprès du public ? Quels chiffres sont fiables ? Quelle est la prochaine expérience la plus utile ? Choisis au maximum trois priorités et bloque du temps dans ton calendrier. Si une tâche n’aide ni la validation, ni la vente, ni la livraison, demande-toi si elle est nécessaire maintenant.\n\nTiens un journal des décisions avec date, hypothèse, preuve, résultat et prochaine action. Cela évite de répéter les mêmes tests et de changer d’avis uniquement selon ton humeur. Revois aussi le budget et les risques. Si tu dépasses régulièrement le temps prévu, simplifie le projet au lieu d’ajouter des heures sans limite."
+      ],
+      [
+        "6. Définir des critères de décision",
+        "Écris des seuils réalistes avant de lancer les tests : nombre de conversations, qualité des problèmes décrits, engagements commerciaux, marge minimale, temps de livraison maximal et niveau de satisfaction. Ces seuils ne sont pas des normes universelles ; adapte-les au public, au prix et au risque. Évite de choisir des objectifs de revenus sans expliquer les hypothèses de conversion, les coûts et la capacité de livraison.\n\nUn bon tableau de bord indique les faits, les hypothèses et les inconnues. Si les données sont trop faibles, la décision peut être de collecter plus d’informations plutôt que de conclure. Le plan doit rester flexible sur les moyens, mais strict sur la transparence, le budget maximal et le respect des clients."
       ]
     ],
-    "exercise": "Écris trois objectifs mesurables, une revue hebdomadaire de 20 minutes et des critères de poursuite ou d'arrêt.",
-    "deliverable": "Tableau de bord 90 jours",
-    "template": "OBJECTIF 1 :\\nINDICATEUR :\\nDATE DE REVUE :\\nOBJECTIF 2 :\\nINDICATEUR :\\nDATE DE REVUE :\\nOBJECTIF 3 :\\nINDICATEUR :\\nDATE DE REVUE :\\nRISQUES :\\nCRITÈRE DE CONTINUATION :\\nCRITÈRE DE PIVOT / ARRÊT :"
+    "exercise": "Atelier de 20 minutes : écris un objectif d’apprentissage pour chaque période de 30 jours, trois expériences, un budget maximal, un calendrier hebdomadaire et les seuils pour continuer, ajuster ou arrêter. Planifie la première revue dès maintenant.",
+    "deliverable": "Un plan de 90 jours, un tableau de suivi hebdomadaire et une règle de décision écrite.",
+    "template": "PROJET PRINCIPAL :\nPUBLIC :\nBUDGET MAXIMUM :\nHEURES PAR SEMAINE :\nJOURS 1–30 : HYPOTHÈSE / ACTIONS / LIVRABLE :\nJOURS 31–60 : HYPOTHÈSE / ACTIONS / LIVRABLE :\nJOURS 61–90 : HYPOTHÈSE / ACTIONS / LIVRABLE :\nMÉTRIQUES :\nSEUIL POUR CONTINUER :\nSEUIL POUR AJUSTER :\nSEUIL POUR ARRÊTER :\nDATE DE REVUE HEBDOMADAIRE :",
+    "agenda": "5 min — définir le projet ; 8 min — planifier les jours 1–30 ; 8 min — jours 31–60 ; 8 min — jours 61–90 ; 8 min — critères de décision ; 5 min — atelier ; 3 min — bloquer la première revue."
   }
 ]

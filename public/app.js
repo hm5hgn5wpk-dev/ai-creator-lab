@@ -90,10 +90,11 @@ async function beginCheckout(tier){
   }catch(err){toast(err.message);if(err.message.includes("Connecte-toi"))openAuth("login",tier);}
 }
 function renderLesson(l,tier){
-  const content=l.content.map(([title,body])=>`<h4>${escapeHtml(title)}</h4><p>${escapeHtml(body)}</p>`).join("");
+  const content=l.content.map(([title,body])=>`<h4>${escapeHtml(title)}</h4><p>${escapeHtml(body).replace(/\n\n/g,"</p><p>")}</p>`).join("");
+  const agenda=l.agenda?`<div class="lesson-agenda"><h4>Déroulé conseillé — ${escapeHtml(l.time)}</h4><p>${escapeHtml(l.agenda)}</p></div>`:"";
   const template=l.template?`<h4>Modèle à compléter</h4><pre>${escapeHtml(l.template)}</pre>`:"";
-  const download=tier==="creator"?`<p><a href="/api/support/${escapeHtml(l.id)}" class="download-support" data-id="${escapeHtml(l.id)}">↓ Télécharger le support du module</a></p>`:"";
-  return `<details class="lesson-row"><summary><span class="member-pill">MODULE ${escapeHtml(l.id)}</span> ${escapeHtml(l.title)} <small>· ${escapeHtml(l.time)}</small></summary><p><strong>Objectif :</strong> ${escapeHtml(l.objective)}</p>${content}<h4>Exercice pratique</h4><p>${escapeHtml(l.exercise)}</p><h4>Livrable attendu</h4><p>${escapeHtml(l.deliverable)}</p>${template}${download}</details>`;
+  const download=tier==="creator"?`<p><a href="/api/support/${escapeHtml(l.id)}" class="download-support" data-id="${escapeHtml(l.id)}">↓ Télécharger le support complet du module</a></p>`:"";
+  return `<details class="lesson-row"><summary><span class="member-pill">MODULE ${escapeHtml(l.id)}</span> ${escapeHtml(l.title)} <small>· ${escapeHtml(l.time)}</small></summary><p><strong>Objectif :</strong> ${escapeHtml(l.objective)}</p>${agenda}${content}<h4>Atelier pratique</h4><p>${escapeHtml(l.exercise)}</p><h4>Livrable attendu</h4><p>${escapeHtml(l.deliverable)}</p>${template}${download}</details>`;
 }
 async function openMember(){
   if(!currentUser){openAuth("login");return}
