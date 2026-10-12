@@ -230,4 +230,4 @@ app.get("/api/support/:id",requireAuth,requireCourse,(req,res)=>{
 
 app.use(express.static(path.join(__dirname,"public"),{extensions:["html"]}));
 app.get("*",(req,res)=>res.sendFile(path.join(__dirname,"public","index.html")));
-app.listen(PORT,()=>console.log(`AI Creator Lab prêt sur ${BASE_URL}`));
+app.listen(PORT, "0.0.0.0", () => console.log(`AI Creator Lab prêt sur le port ${PORT}`));
