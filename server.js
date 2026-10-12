@@ -160,8 +160,14 @@ app.post("/api/register",authLimiter, async (req,res) => {
   const hash=await bcrypt.hash(password,12);
   try {
     const result=db.prepare("INSERT INTO users(name,email,password_hash) VALUES(?,?,?)").run(name,email,hash);
-    req.session.userId=Number(result.lastInsertRowid);
-    res.json({user:{id:Number(result.lastInsertRowid),name,email,tier:null},message:"Compte créé. Tu peux maintenant choisir ton accès."});
+    req.session.userId = Number(result.lastInsertRowid);
+req.session.save(err => {
+  if (err) return res.status(500).json({error:"Impossible d'enregistrer la session."});
+  res.json({
+    user: {id:Number(result.lastInsertRowid),name,email,tier:null},
+    message:"Compte créé. Tu peux maintenant choisir ton accès."
+  });
+});
   } catch(e) { res.status(500).json({error:"Impossible de créer le compte pour le moment."}); }
 });
 app.post("/api/login",authLimiter, async (req,res) => {
@@ -169,11 +175,14 @@ app.post("/api/login",authLimiter, async (req,res) => {
   const password=String(req.body.password||"");
   const user=db.prepare("SELECT * FROM users WHERE email=?").get(email);
   if (!user || !(await bcrypt.compare(password,user.password_hash))) return res.status(401).json({error:"E-mail ou mot de passe incorrect."});
-  req.session.regenerate(err=>{
-    if(err) return res.status(500).json({error:"Impossible d'ouvrir la session."});
-    req.session.userId=user.id;
+  req.session.regenerate(err => {
+  if (err) return res.status(500).json({error:"Impossible d'ouvrir la session."});
+  req.session.userId = user.id;
+  req.session.save(err => {
+    if (err) return res.status(500).json({error:"Impossible d'enregistrer la session."});
     res.json({user:safeUser(user),message:"Connexion réussie."});
   });
+});
 });
 app.post("/api/logout",(req,res)=>req.session.destroy(()=>{res.clearCookie("acl.sid",{httpOnly:true,sameSite:"lax",secure:isProd});res.json({ok:true});}));
 app.get("/api/me",(req,res)=>res.json({user:safeUser(getUser(req))}));
